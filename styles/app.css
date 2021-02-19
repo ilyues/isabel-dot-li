@@ -1,84 +1,72 @@
 @font-face {
   font-family: "Whyte Inktrap";
-  src: url("../fonts/whyte-inktrap/WhyteInktrap-Thin.eot");
-  src: local("../fonts/whyte-inktrap/Whyte Inktrap Thin"),
-    local("../fonts/whyte-inktrap/WhyteInktrap-Thin"),
-    url("../fonts/whyte-inktrap/WhyteInktrap-Thin.eot?#iefix")
-      format("embedded-opentype"),
-    url("../fonts/whyte-inktrap/WhyteInktrap-Thin.woff2") format("woff2"),
-    url("../fonts/whyte-inktrap/WhyteInktrap-Thin.woff") format("woff"),
-    url("../fonts/whyte-inktrap/WhyteInktrap-Thin.ttf") format("truetype");
+  src: url("./WhyteInktrap-Thin.eot");
+  src: local("./Whyte Inktrap Thin"), local("./WhyteInktrap-Thin"),
+    url("./WhyteInktrap-Thin.eot?#iefix") format("embedded-opentype"),
+    url("./WhyteInktrap-Thin.woff2") format("woff2"),
+    url("./WhyteInktrap-Thin.woff") format("woff"),
+    url("./WhyteInktrap-Thin.ttf") format("truetype");
   font-weight: 100;
   font-style: normal;
 }
 
 @font-face {
   font-family: "Whyte Inktrap";
-  src: url("../fonts/whyte-inktrap/WhyteInktrap-Italic.eot");
-  src: local("../fonts/whyte-inktrap/Whyte Inktrap Italic"),
-    local("../fonts/whyte-inktrap/WhyteInktrap-Italic"),
-    url("../fonts/whyte-inktrap/WhyteInktrap-Italic.eot?#iefix")
-      format("embedded-opentype"),
-    url("../fonts/whyte-inktrap/WhyteInktrap-Italic.woff2") format("woff2"),
-    url("../fonts/whyte-inktrap/WhyteInktrap-Italic.woff") format("woff"),
-    url("../fonts/whyte-inktrap/WhyteInktrap-Italic.ttf") format("truetype");
+  src: url("./WhyteInktrap-Italic.eot");
+  src: local("./Whyte Inktrap Italic"), local("./WhyteInktrap-Italic"),
+    url("./WhyteInktrap-Italic.eot?#iefix") format("embedded-opentype"),
+    url("./WhyteInktrap-Italic.woff2") format("woff2"),
+    url("./WhyteInktrap-Italic.woff") format("woff"),
+    url("./WhyteInktrap-Italic.ttf") format("truetype");
   font-weight: normal;
   font-style: italic;
 }
 
 @font-face {
   font-family: "Whyte Inktrap";
-  src: url("../fonts/whyte-inktrap/WhyteInktrap-ThinItalic.eot");
-  src: local("../fonts/whyte-inktrap/Whyte Inktrap Thin Italic"),
-    local("../fonts/whyte-inktrap/WhyteInktrap-ThinItalic"),
-    url("../fonts/whyte-inktrap/WhyteInktrap-ThinItalic.eot?#iefix")
-      format("embedded-opentype"),
-    url("../fonts/whyte-inktrap/WhyteInktrap-ThinItalic.woff2") format("woff2"),
-    url("../fonts/whyte-inktrap/WhyteInktrap-ThinItalic.woff") format("woff"),
-    url("../fonts/whyte-inktrap/WhyteInktrap-ThinItalic.ttf") format("truetype");
+  src: url("./WhyteInktrap-ThinItalic.eot");
+  src: local("./Whyte Inktrap Thin Italic"), local("./WhyteInktrap-ThinItalic"),
+    url("./WhyteInktrap-ThinItalic.eot?#iefix") format("embedded-opentype"),
+    url("./WhyteInktrap-ThinItalic.woff2") format("woff2"),
+    url("./WhyteInktrap-ThinItalic.woff") format("woff"),
+    url("./WhyteInktrap-ThinItalic.ttf") format("truetype");
   font-weight: 100;
   font-style: italic;
 }
 
 @font-face {
   font-family: "Whyte Inktrap";
-  src: url("../fonts/whyte-inktrap/WhyteInktrap-Light.eot");
-  src: local("../fonts/whyte-inktrap/Whyte Inktrap Light"),
-    local("../fonts/whyte-inktrap/WhyteInktrap-Light"),
-    url("../fonts/whyte-inktrap/WhyteInktrap-Light.eot?#iefix")
-      format("embedded-opentype"),
-    url("../fonts/whyte-inktrap/WhyteInktrap-Light.woff2") format("woff2"),
-    url("../fonts/whyte-inktrap/WhyteInktrap-Light.woff") format("woff"),
-    url("../fonts/whyte-inktrap/WhyteInktrap-Light.ttf") format("truetype");
+  src: url("./WhyteInktrap-Light.eot");
+  src: local("./Whyte Inktrap Light"), local("./WhyteInktrap-Light"),
+    url("./WhyteInktrap-Light.eot?#iefix") format("embedded-opentype"),
+    url("./WhyteInktrap-Light.woff2") format("woff2"),
+    url("./WhyteInktrap-Light.woff") format("woff"),
+    url("./WhyteInktrap-Light.ttf") format("truetype");
   font-weight: 300;
   font-style: normal;
 }
 
 @font-face {
   font-family: "Whyte Inktrap";
-  src: url("../fonts/whyte-inktrap/WhyteInktrap-LightItalic.eot");
-  src: local("../fonts/whyte-inktrap/Whyte Inktrap Light Italic"),
-    local("../fonts/whyte-inktrap/WhyteInktrap-LightItalic"),
-    url("../fonts/whyte-inktrap/WhyteInktrap-LightItalic.eot?#iefix")
-      format("embedded-opentype"),
-    url("../fonts/whyte-inktrap/WhyteInktrap-LightItalic.woff2") format("woff2"),
-    url("../fonts/whyte-inktrap/WhyteInktrap-LightItalic.woff") format("woff"),
-    url("../fonts/whyte-inktrap/WhyteInktrap-LightItalic.ttf")
-      format("truetype");
+  src: url("./WhyteInktrap-LightItalic.eot");
+  src: local("./Whyte Inktrap Light Italic"),
+    local("./WhyteInktrap-LightItalic"),
+    url("./WhyteInktrap-LightItalic.eot?#iefix") format("embedded-opentype"),
+    url("./WhyteInktrap-LightItalic.woff2") format("woff2"),
+    url("./WhyteInktrap-LightItalic.woff") format("woff"),
+    url("./WhyteInktrap-LightItalic.ttf") format("truetype");
   font-weight: 300;
   font-style: italic;
 }
 
 @font-face {
   font-family: "Whyte Inktrap";
-  src: url("../fonts/whyte-inktrap/WhyteInktrap-Regular.eot");
-  src: local("../fonts/whyte-inktrap/Whyte Inktrap Regular"),
-    local("../fonts/whyte-inktrap/WhyteInktrap-Regular"),
-    url("../fonts/whyte-inktrap/WhyteInktrap-Regular.eot?#iefix")
-      format("embedded-opentype"),
-    url("../fonts/whyte-inktrap/WhyteInktrap-Regular.woff2") format("woff2"),
-    url("../fonts/whyte-inktrap/WhyteInktrap-Regular.woff") format("woff"),
-    url("../fonts/whyte-inktrap/WhyteInktrap-Regular.ttf") format("truetype");
+  src: url("./WhyteInktrap-Regular.eot");
+  src: local("./Whyte Inktrap Regular"), local("./WhyteInktrap-Regular"),
+    url("./WhyteInktrap-Regular.eot?#iefix") format("embedded-opentype"),
+    url("./WhyteInktrap-Regular.woff2") format("woff2"),
+    url("./WhyteInktrap-Regular.woff") format("woff"),
+    url("./WhyteInktrap-Regular.ttf") format("truetype");
   font-weight: normal;
   font-style: normal;
 }
