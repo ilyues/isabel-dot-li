@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/static/css/main.0a281faf.chunk.css",
-    "main.js": "/static/js/main.c4014124.chunk.js",
-    "main.js.map": "/static/js/main.c4014124.chunk.js.map",
+    "main.css": "/static/css/main.aadf3c63.chunk.css",
+    "main.js": "/static/js/main.c4ab6055.chunk.js",
+    "main.js.map": "/static/js/main.c4ab6055.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.82478198.js",
     "runtime-main.js.map": "/static/js/runtime-main.82478198.js.map",
-    "static/js/2.e899649d.chunk.js": "/static/js/2.e899649d.chunk.js",
-    "static/js/2.e899649d.chunk.js.map": "/static/js/2.e899649d.chunk.js.map",
+    "static/js/2.2642820f.chunk.js": "/static/js/2.2642820f.chunk.js",
+    "static/js/2.2642820f.chunk.js.map": "/static/js/2.2642820f.chunk.js.map",
     "index.html": "/index.html",
-    "static/css/main.0a281faf.chunk.css.map": "/static/css/main.0a281faf.chunk.css.map",
-    "static/js/2.e899649d.chunk.js.LICENSE.txt": "/static/js/2.e899649d.chunk.js.LICENSE.txt",
+    "static/css/main.aadf3c63.chunk.css.map": "/static/css/main.aadf3c63.chunk.css.map",
+    "static/js/2.2642820f.chunk.js.LICENSE.txt": "/static/js/2.2642820f.chunk.js.LICENSE.txt",
     "static/media/LI.5d1d20e6.png": "/static/media/LI.5d1d20e6.png",
     "static/media/app.css": "/static/media/WhyteInktrap-Thin.3c28f623.ttf",
     "static/media/YUE.7ee51489.png": "/static/media/YUE.7ee51489.png",
@@ -24,8 +24,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.82478198.js",
-    "static/js/2.e899649d.chunk.js",
-    "static/css/main.0a281faf.chunk.css",
-    "static/js/main.c4014124.chunk.js"
+    "static/js/2.2642820f.chunk.js",
+    "static/css/main.aadf3c63.chunk.css",
+    "static/js/main.c4ab6055.chunk.js"
   ]
 }
