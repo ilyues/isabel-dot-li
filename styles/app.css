@@ -1,0 +1,405 @@
+@font-face {
+  font-family: "Whyte Inktrap";
+  src: url("../fonts/whyte-inktrap/WhyteInktrap-Thin.eot");
+  src: local("../fonts/whyte-inktrap/Whyte Inktrap Thin"),
+    local("../fonts/whyte-inktrap/WhyteInktrap-Thin"),
+    url("../fonts/whyte-inktrap/WhyteInktrap-Thin.eot?#iefix")
+      format("embedded-opentype"),
+    url("../fonts/whyte-inktrap/WhyteInktrap-Thin.woff2") format("woff2"),
+    url("../fonts/whyte-inktrap/WhyteInktrap-Thin.woff") format("woff"),
+    url("../fonts/whyte-inktrap/WhyteInktrap-Thin.ttf") format("truetype");
+  font-weight: 100;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Whyte Inktrap";
+  src: url("../fonts/whyte-inktrap/WhyteInktrap-Italic.eot");
+  src: local("../fonts/whyte-inktrap/Whyte Inktrap Italic"),
+    local("../fonts/whyte-inktrap/WhyteInktrap-Italic"),
+    url("../fonts/whyte-inktrap/WhyteInktrap-Italic.eot?#iefix")
+      format("embedded-opentype"),
+    url("../fonts/whyte-inktrap/WhyteInktrap-Italic.woff2") format("woff2"),
+    url("../fonts/whyte-inktrap/WhyteInktrap-Italic.woff") format("woff"),
+    url("../fonts/whyte-inktrap/WhyteInktrap-Italic.ttf") format("truetype");
+  font-weight: normal;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Whyte Inktrap";
+  src: url("../fonts/whyte-inktrap/WhyteInktrap-ThinItalic.eot");
+  src: local("../fonts/whyte-inktrap/Whyte Inktrap Thin Italic"),
+    local("../fonts/whyte-inktrap/WhyteInktrap-ThinItalic"),
+    url("../fonts/whyte-inktrap/WhyteInktrap-ThinItalic.eot?#iefix")
+      format("embedded-opentype"),
+    url("../fonts/whyte-inktrap/WhyteInktrap-ThinItalic.woff2") format("woff2"),
+    url("../fonts/whyte-inktrap/WhyteInktrap-ThinItalic.woff") format("woff"),
+    url("../fonts/whyte-inktrap/WhyteInktrap-ThinItalic.ttf") format("truetype");
+  font-weight: 100;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Whyte Inktrap";
+  src: url("../fonts/whyte-inktrap/WhyteInktrap-Light.eot");
+  src: local("../fonts/whyte-inktrap/Whyte Inktrap Light"),
+    local("../fonts/whyte-inktrap/WhyteInktrap-Light"),
+    url("../fonts/whyte-inktrap/WhyteInktrap-Light.eot?#iefix")
+      format("embedded-opentype"),
+    url("../fonts/whyte-inktrap/WhyteInktrap-Light.woff2") format("woff2"),
+    url("../fonts/whyte-inktrap/WhyteInktrap-Light.woff") format("woff"),
+    url("../fonts/whyte-inktrap/WhyteInktrap-Light.ttf") format("truetype");
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Whyte Inktrap";
+  src: url("../fonts/whyte-inktrap/WhyteInktrap-LightItalic.eot");
+  src: local("../fonts/whyte-inktrap/Whyte Inktrap Light Italic"),
+    local("../fonts/whyte-inktrap/WhyteInktrap-LightItalic"),
+    url("../fonts/whyte-inktrap/WhyteInktrap-LightItalic.eot?#iefix")
+      format("embedded-opentype"),
+    url("../fonts/whyte-inktrap/WhyteInktrap-LightItalic.woff2") format("woff2"),
+    url("../fonts/whyte-inktrap/WhyteInktrap-LightItalic.woff") format("woff"),
+    url("../fonts/whyte-inktrap/WhyteInktrap-LightItalic.ttf")
+      format("truetype");
+  font-weight: 300;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Whyte Inktrap";
+  src: url("../fonts/whyte-inktrap/WhyteInktrap-Regular.eot");
+  src: local("../fonts/whyte-inktrap/Whyte Inktrap Regular"),
+    local("../fonts/whyte-inktrap/WhyteInktrap-Regular"),
+    url("../fonts/whyte-inktrap/WhyteInktrap-Regular.eot?#iefix")
+      format("embedded-opentype"),
+    url("../fonts/whyte-inktrap/WhyteInktrap-Regular.woff2") format("woff2"),
+    url("../fonts/whyte-inktrap/WhyteInktrap-Regular.woff") format("woff"),
+    url("../fonts/whyte-inktrap/WhyteInktrap-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+html * {
+  transition: 0.5s ease;
+  transition-property: all;
+  transition-duration: 0.5s;
+  transition-timing-function: ease;
+  transition-delay: 0s;
+  scroll-behavior: inherit;
+  -webkit-animation: fadein 1s; /* Safari, Chrome and Opera > 12.1 */
+  -moz-animation: fadein 1s; /* Firefox < 16 */
+  -ms-animation: fadein 1s; /* Internet Explorer */
+  -o-animation: fadein 1s; /* Opera < 12.1 */
+  animation: fadein 1s;
+}
+
+::selection {
+  background: #c7cdff; /* WebKit/Blink Browsers */
+}
+::-moz-selection {
+  background: #c7cdff; /* WebKit/Blink Browsers */ /* Gecko Browsers */
+}
+
+body {
+  background-color: #fbfbfb;
+  overflow-x: hidden;
+}
+main {
+  padding: 20px;
+  align-content: center;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  color: #111111;
+}
+
+h1 {
+  font: 60px "WhyteInktrap-Regular", sans-serif;
+  font-weight: 100;
+  line-height: 80px;
+  color: #111111;
+  margin: 10px;
+}
+
+h2 {
+  font: 48px "WhyteInktrap-Regular", sans-serif;
+  font-weight: 100;
+  line-height: 66px;
+  color: #272727;
+  margin-block-start: 0;
+  margin-block-end: 0;
+}
+
+.filling {
+  align-content: center;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  height: 90vh;
+  border-radius: 20px;
+}
+
+.lettuce {
+  font: 18px "WhyteInktrap-Light", sans-serif;
+  font-weight: 100;
+  line-height: 25px;
+  color: #272727;
+  margin-inline-start: 12px;
+}
+
+.pickles {
+  overflow: hidden;
+  font: 16px "WhyteInktrap-Regular", sans-serif;
+  font-weight: 100;
+  line-height: 22px;
+  color: #272727;
+  margin-inline-start: 20px;
+}
+
+.meat {
+  position: relative;
+  z-index: 1;
+  max-width: 45vw;
+  backdrop-filter: blur(10px);
+  padding: 40px;
+  border-radius: 20px;
+  background: #fbfbfb7a;
+}
+
+.bread-slice1 {
+  position: absolute;
+  top: -30px;
+  left: -100px;
+  width: 450px;
+  -webkit-transform: rotate(20deg);
+  transform: rotate(20deg);
+  -webkit-transition: -webkit-transform 1.2s ease-in-out;
+  transition: transform 1.2s ease-in-out;
+}
+
+.bread-slice1:hover {
+  -webkit-transform: rotate(-16deg);
+  transform: rotate(-16deg);
+  position: absolute;
+  z-index: -1;
+}
+
+.bread-slice2 {
+  position: absolute;
+  bottom: -60px;
+  right: -80px;
+  width: 450px;
+  -webkit-transform: rotate(-20deg);
+  transform: rotate(-20deg);
+  -webkit-transition: -webkit-transform 1.2s ease-in-out;
+  transition: transform 1.2s ease-in-out;
+}
+
+.bread-slice2:hover {
+  -webkit-transform: rotate(16deg);
+  transform: rotate(16deg);
+  position: absolute;
+  z-index: -1;
+}
+
+.doing-stuff {
+  font: 16px "WhyteInktrap-Regular", sans-serif;
+}
+
+.stuff {
+  margin-inline-start: 20px;
+  font: 16px "WhyteInktrap-Light", sans-serif;
+}
+
+.artist {
+  font: 16px "WhyteInktrap-Thin", sans-serif;
+}
+.song {
+  font: 16px "WhyteInktrap-LightItalic", sans-serif;
+}
+
+.stuff a {
+  text-decoration: none;
+  text-decoration: underline;
+  color: #111111;
+}
+
+@keyframes fadein {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+/* Firefox < 16 */
+@-moz-keyframes fadein {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+/* Safari, Chrome and Opera > 12.1 */
+@-webkit-keyframes fadein {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+/* Internet Explorer */
+@-ms-keyframes fadein {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.content-two {
+  height: 85vh;
+  margin: 40px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+b {
+  text-transform: none;
+  text-decoration: none;
+  font-weight: 100;
+  font-family: "WhyteInktrap-Regular", sans-serif;
+}
+.all-minis {
+  display: flex;
+  flex-direction: row;
+}
+.tech-minis {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  margin: 10px;
+}
+.art-mini {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  max-width: 500px;
+  margin: 10px;
+}
+
+.art-container {
+  position: relative;
+  width: 350px;
+  height: 450px;
+}
+
+.art-container img {
+  overflow: hidden;
+  width: 350px;
+  height: 450px;
+  position: absolute;
+  display: block;
+  object-fit: cover;
+  -webkit-animation-name: img-fade;
+  -webkit-animation-iteration-count: infinite;
+  -webkit-animation-duration: 12s;
+  animation-name: img-fade;
+  animation-iteration-count: infinite;
+  animation-duration: 12s;
+}
+
+.art-container:hover {
+  transform: scale(1.05, 1.05);
+}
+
+.subheader {
+  font: 2.6vw "WhyteInktrap-Regular", sans-serif;
+  font-weight: 100;
+  line-height: 3.6vw;
+  max-width: 45vw;
+  margin: 20px;
+  margin-bottom: 40px;
+  text-align: center;
+}
+
+@-webkit-keyframes img-fade {
+  0% {
+    opacity: 0;
+  }
+  20% {
+    opacity: 1;
+  }
+  40% {
+    opacity: 1;
+  }
+  53% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+@keyframes img-fade {
+  0% {
+    opacity: 0;
+  }
+  20% {
+    opacity: 1;
+  }
+  40% {
+    opacity: 1;
+  }
+  53% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+.art-02 {
+  -webkit-animation-delay: -8s;
+  animation-delay: -8s;
+}
+.art-03 {
+  -webkit-animation-delay: -4s;
+  animation-delay: -4s;
+}
+
+.art-descrip {
+  font: 12px "WhyteInktrap-Light", sans-serif;
+  line-height: 18px;
+  width: 350px;
+  padding: 40px;
+}
+
+.tech-blob {
+  top: -200px;
+  left: -120px;
+  width: 650px;
+  position: absolute;
+  z-index: -10;
+  stroke-dasharray: 2000;
+  stroke-dashoffset: -2000;
+  animation: dash1 5s ease-in forwards;
+}
