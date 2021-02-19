@@ -62,10 +62,8 @@
   font-family: "Whyte Inktrap";
   src: url("WhyteInktrap-Regular.eot");
   src: local("Whyte Inktrap Regular"), local("WhyteInktrap-Regular"),
-    url("WhyteInktrap-Regular.eot?#iefix") format("embedded-opentype"),
-    url("WhyteInktrap-Regular.woff2") format("woff2"),
-    url("WhyteInktrap-Regular.woff") format("woff"),
-    url("WhyteInktrap-Regular.ttf") format("truetype");
+    url("WhyteInktrap-Regular.eot?#iefix"), url("WhyteInktrap-Regular.woff2"),
+    url("WhyteInktrap-Regular.woff"), url("WhyteInktrap-Regular.ttf");
   font-weight: normal;
   font-style: normal;
 }
