@@ -13,7 +13,7 @@ const Navbar = () => {
         activeClassName="active-link"
         className="nav-link"
         exact
-        to="/ab/"
+        to="/about"
       >
         about
       </NavLink>
