@@ -106,7 +106,7 @@ const Home = () => {
         <title>Isabel Li 🖍️</title>
 
         <Navbar />
-        <Socials />
+
         <img className="bread-slice1" src={li} alt="李" />
 
         <div className="filling">
@@ -221,6 +221,7 @@ const Home = () => {
             </div>
           </div>
         </div>
+        <Socials />
         <Footer />
       </main>
     </div>

@@ -281,10 +281,20 @@ b {
   }
   h1 {
     font-family: "whyte";
-    font-size: 32px;
+    font-size: 30px;
     font-weight: normal;
-    line-height: 40px;
+    line-height: 38px;
     margin: 10px;
+  }
+
+  h2 {
+    font-family: "whyte";
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 44px;
+    color: #272727;
+    margin-block-start: 0;
+    margin-block-end: 0;
   }
 
   .filling {

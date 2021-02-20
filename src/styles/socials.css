@@ -76,7 +76,7 @@
 @media screen and (max-width: 580px) /* mobile */ {
   .sticky {
     z-index: 2;
-    position: fixed;
+    position: relative;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -85,10 +85,6 @@
     bottom: 0vh;
     left: 0vw;
     margin: 0px;
-  }
-
-  .talk-to-me {
-    visibility: hidden;
   }
 }
 

@@ -11,7 +11,7 @@ const About = () => {
   return (
     <main className="ab">
       <title>about Isabel 🖍️</title>
-      <Navbar /> <Socials />
+      <Navbar />
       <div className="profile">
         <img className="bee" src={bee} alt="me!" />
         <div className="profile-text">
@@ -79,6 +79,7 @@ const About = () => {
           stroke="rgb(5, 101, 137)"
         ></path>
       </svg>
+      <Socials />
       <Footer />
     </main>
   );
