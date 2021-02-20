@@ -1,4 +1,4 @@
-@import url("./fonts/whyte-inktrap/fonts.css");
+@import url("../index.css");
 
 html * {
   transition: 0.5s ease;
@@ -36,16 +36,18 @@ main {
 }
 
 h1 {
-  font: 60px "WhyteInktrap-Regular", sans-serif;
-  font-weight: 100;
+  font-family: "whyte";
+  font-size: 60px;
+  font-weight: normal;
   line-height: 80px;
   color: #111111;
   margin: 10px;
 }
 
 h2 {
-  font: 48px "WhyteInktrap-Regular", sans-serif;
-  font-weight: 100;
+  font-family: "whyte";
+  font-weight: normal;
+  font-size: 48px;
   line-height: 66px;
   color: #272727;
   margin-block-start: 0;
@@ -63,7 +65,8 @@ h2 {
 }
 
 .lettuce {
-  font: 18px "WhyteInktrap-Light", sans-serif;
+  font-size: 18px;
+  font-family: "whyte-light";
   font-weight: 100;
   line-height: 25px;
   color: #272727;
@@ -72,7 +75,8 @@ h2 {
 
 .pickles {
   overflow: hidden;
-  font: 16px "WhyteInktrap-Regular", sans-serif;
+  font-size: 16px;
+  font-family: "whyte";
   font-weight: 100;
   line-height: 22px;
   color: #272727;
@@ -126,19 +130,23 @@ h2 {
 }
 
 .doing-stuff {
-  font: 16px "WhyteInktrap-Regular", sans-serif;
+  font-family: "whyte";
+  font-size: 16px;
 }
 
 .stuff {
   margin-inline-start: 20px;
-  font: 16px "WhyteInktrap-Light", sans-serif;
+  font-size: 16px;
+  font-family: "whyte-light";
 }
 
 .artist {
-  font: 16px "WhyteInktrap-Thin", sans-serif;
+  font-size: 16px;
+  font-family: "whyte-thin";
 }
 .song {
-  font: 16px "WhyteInktrap-LightItalic", sans-serif;
+  font-size: 16px;
+  font-family: "whyte-it";
 }
 
 .stuff a {
@@ -199,8 +207,8 @@ h2 {
 b {
   text-transform: none;
   text-decoration: none;
-  font-weight: 100;
-  font-family: "WhyteInktrap-Regular", sans-serif;
+  font-family: "whyte";
+  font-weight: normal;
 }
 .all-minis {
   display: flex;
@@ -250,7 +258,8 @@ b {
 }
 
 .subheader {
-  font: 2.6vw "WhyteInktrap-Regular", sans-serif;
+  font-size: 2.6vw;
+  font-family: "whyte";
   font-weight: 100;
   line-height: 3.6vw;
   max-width: 45vw;
@@ -304,7 +313,8 @@ b {
 }
 
 .art-descrip {
-  font: 12px "WhyteInktrap-Light", sans-serif;
+  font-family: "whyte-light";
+  font-size: 12px;
   line-height: 18px;
   width: 350px;
   padding: 40px;

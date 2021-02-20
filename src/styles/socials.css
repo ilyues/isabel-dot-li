@@ -50,7 +50,8 @@
 .talk-to-me {
   margin: 10px;
   z-index: 3;
-  font: 14.5px "WhyteInktrap-Light", sans-serif;
+  font-size: 14.5px;
+  font-family: "whyte-light";
   color: rgb(32, 32, 32);
 }
 

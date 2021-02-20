@@ -18,7 +18,8 @@
 
 .mini-proj-right {
   margin-inline-start: 20px;
-  font: 12px "WhyteInktrap-Light", sans-serif;
+  font-size: 12px;
+  font-family: "whyte-light";
   line-height: 18px;
   width: 385px;
 }
@@ -37,7 +38,7 @@
   border-radius: 20px;
   padding-left: 9px;
   padding-right: 9px;
-  padding-top: 4px;
+  padding-top: 5px;
   padding-bottom: 2px;
   text-align: center;
   margin: 5px;

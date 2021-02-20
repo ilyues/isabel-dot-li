@@ -1,20 +1,22 @@
 import * as React from "react";
 import "../styles/navbar.css";
-import { Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 
 // markup
 const Navbar = () => {
-  function isActive({ isCurrent }) {
-    return isCurrent ? { className: "active-link" } : { className: "nav-link" };
-  }
   return (
     <main className="navbar">
-      <Link getProps={isActive} className="nav-link" to="/">
+      <NavLink activeClassName="active-link" className="nav-link" exact to="/">
         home
-      </Link>
-      <Link getProps={isActive} className="nav-link" to="/ab/">
+      </NavLink>
+      <NavLink
+        activeClassName="active-link"
+        className="nav-link"
+        exact
+        to="/ab/"
+      >
         about
-      </Link>
+      </NavLink>
       {/* <Link getProps={isActive} className="nav-link" to="/exp/">
         illustration
       </Link> */}

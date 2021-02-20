@@ -10,7 +10,8 @@ main.ab {
   justify-content: center;
 }
 .bio {
-  font: 14px "WhyteInktrap-Light", sans-serif;
+  font-size: 14px;
+  font-family: "whyte-light";
   line-height: 18px;
   color: #272727;
   margin-inline-start: 20px;
@@ -93,7 +94,8 @@ main.ab {
 
 h3 {
   padding-top: 20px;
-  font: 1.6vw "WhyteInktrap-Regular", sans-serif;
+  font-size: 1.6vw;
+  font-family: "whyte";
   font-weight: 100;
   line-height: 36px;
   color: #272727;

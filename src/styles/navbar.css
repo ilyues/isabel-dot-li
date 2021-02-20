@@ -10,12 +10,10 @@
   padding-right: 1vw;
 }
 
-.nav-link {
-  font: 14.5px "WhyteInktrap-Regular", sans-serif;
-}
-
 .nav-link,
 .active-link {
+  font-size: 14.5px;
+  font-family: "whyte";
   text-decoration: none;
   color: #585858;
   padding-left: 15px;
@@ -41,7 +39,7 @@
 }
 
 .active-link {
-  font: 14.5px "WhyteInktrap-Regular", sans-serif;
+  font: 14.5px "WhyteInktrap-Regular", sans-serif, "Whyte Inktrap";
   color: black;
   line-height: 16px;
   text-decoration-line: underline;
