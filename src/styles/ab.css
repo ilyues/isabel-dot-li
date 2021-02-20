@@ -25,8 +25,6 @@ main.ab {
   padding: 2vw;
   border-radius: 20px;
   background: #fbfbfbc0;
-  /* -webkit-filter: drop-shadow(10px 10px 10px rgba(156, 155, 154, 0.486));
-  filter: drop-shadow(10px 10px 10px rgba(156, 155, 154, 0.486)); */
 }
 
 .bee {
@@ -80,18 +78,6 @@ main.ab {
   position: absolute;
 }
 
-@keyframes dash1 {
-  to {
-    stroke-dashoffset: 0;
-  }
-}
-
-@keyframes dash2 {
-  to {
-    stroke-dashoffset: 0;
-  }
-}
-
 h3 {
   padding-top: 20px;
   font-size: 1.6vw;
@@ -104,6 +90,102 @@ h3 {
   position: relative;
   z-index: 5;
 }
+
+.ab .footer {
+  position: absolute;
+  bottom: 40px;
+}
+
+@media screen and (max-width: 1000px) /* mobile */ {
+  main.ab {
+    height: fit-content;
+    overflow-y: scroll;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+
+  .profile {
+    height: fit-content;
+    width: 90vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+  }
+
+  .bio {
+    font-size: 12px;
+    font-family: "whyte-light";
+    line-height: 14px;
+    color: #272727;
+    margin-inline-start: 0px;
+  }
+
+  .profile-text {
+    position: relative;
+    z-index: 1;
+    max-width: 80vw;
+    backdrop-filter: blur(2px);
+    padding: 2vw;
+    border-radius: 20px;
+    background: #fbfbfbc0;
+  }
+
+  .bee {
+    max-width: 200px;
+    /* display: block; */
+    margin: 40px;
+    align-self: center;
+  }
+
+  .cloud1 {
+    width: 120px;
+    top: 12vh;
+    left: -3vw;
+  }
+
+  .blob {
+    top: 700px;
+    right: -50vw;
+    width: 400px;
+    z-index: -2;
+    stroke-dasharray: 2000;
+    stroke-dashoffset: -2000;
+    animation: dash1 5s ease-in forwards;
+  }
+
+  .blob2 {
+    bottom: 450px;
+    left: 30vw;
+    width: 400px;
+    z-index: 0;
+    stroke-dasharray: 2000;
+    stroke-dashoffset: 2000;
+    animation: dash1 5s ease-in forwards;
+    animation-delay: 0.5s;
+  }
+
+  h3 {
+    padding-top: 20px;
+    font-size: 20px;
+
+    line-height: 28px;
+    color: #272727;
+    margin-block-start: 0;
+    margin-block-end: 0;
+    position: relative;
+    z-index: 5;
+  }
+
+  .ab .footer {
+    position: inherit;
+    bottom: inherit;
+  }
+}
+
+/* Animations */
 
 .wave {
   animation-name: wave-animation; /* Refers to the name of your @keyframes element below */
@@ -140,7 +222,14 @@ h3 {
   }
 }
 
-.ab .footer {
-  position: absolute;
-  bottom: 40px;
+@keyframes dash1 {
+  to {
+    stroke-dashoffset: 0;
+  }
+}
+
+@keyframes dash2 {
+  to {
+    stroke-dashoffset: 0;
+  }
 }

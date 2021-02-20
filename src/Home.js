@@ -101,127 +101,129 @@ const Home = () => {
     },
   ];
   return (
-    <main>
-      <title>Isabel Li 🖍️</title>
+    <div className="wrapper">
+      <main>
+        <title>Isabel Li 🖍️</title>
 
-      <Navbar />
-      <Socials />
-      <img className="bread-slice1" src={li} alt="李" />
+        <Navbar />
+        <Socials />
+        <img className="bread-slice1" src={li} alt="李" />
 
-      <div className="filling">
-        <div className="meat">
-          <div className="lettuce">🖍️ {hello} </div>
-          <h1>
-            I’m Isabel. <br /> I design, illustrate, and code towards a kinder
-            world.
-          </h1>
-          <div className="pickles">
-            <span className="doing-stuff">Listening to:</span>{" "}
-            <span className="stuff">
-              {items[Math.floor(Math.random() * items.length)]}
-            </span>
-            <br />
-          </div>
-          <div className="pickles">
-            <span className="doing-stuff">Currently:</span>
-            {"  "}
-            <TextLoop
-              interval={3500}
-              fade={true}
-              springConfig={{ stiffness: 5, damping: 2 }}
-            >
-              <span className="stuff">resting, learning, making.</span>
+        <div className="filling">
+          <div className="meat">
+            <div className="lettuce">🖍️ {hello} </div>
+            <h1>
+              I’m Isabel. <br /> I design, illustrate, and code towards a kinder
+              world.
+            </h1>
+            <div className="pickles">
+              <span className="doing-stuff">Listening to:</span>{" "}
               <span className="stuff">
-                {" "}
-                developing @{" "}
-                <a href="https://codebase.berkeley.edu/" target="_blank">
-                  Berkeley Codebase.
-                </a>
+                {items[Math.floor(Math.random() * items.length)]}
               </span>
-              <span className="stuff">elbows deep in oil paints.</span>
-              <span className="stuff">
-                writing poetry on a Google doc that's seen some things.
-              </span>
-              <span className="stuff">
-                freelancing, portrait commissions mostly.
-              </span>
-              <span className="stuff">
-                designing @{" "}
-                <a href="https://innovativedesign.club/" target="_blank">
-                  Innovative Design.
-                </a>
-              </span>
-            </TextLoop>
-          </div>
-        </div>
-      </div>
-      <img className="bread-slice2" src={yue} alt="玥" />
-      <div className="content-two">
-        <div className="subheader">
-          Here are some things I've been working on and learning from.
-        </div>
-        <div className="all-minis">
-          <div className="tech-minis">
-            <svg
-              className="tech-blob"
-              viewBox="0 0 500 500"
-              width="100%"
-              id="blobSvg"
-            >
-              <path
-                id="blob"
-                d="M405.5,303.5Q436,357,373.5,356.5Q311,356,280.5,369.5Q250,383,208.5,388.5Q167,394,109.5,379Q52,364,40,307Q28,250,52.5,200Q77,150,134.5,149.5Q192,149,221,112Q250,75,298,79.5Q346,84,375.5,122.5Q405,161,390,205.5Q375,250,405.5,303.5Z"
-                fill="none"
-                stroke-width="7px"
-                stroke="#aeabff"
-              ></path>
-            </svg>
-            {miniProjs.map((proj) => (
-              <MiniProject
-                title={proj.title}
-                image={proj.image}
-                tags={proj.tags}
-                mainTag={proj.mainTag}
-                client={proj.client}
-                clientName={proj.clientName}
-                titleClickable={proj.titleClickable}
-                titleUrl={proj.titleUrl}
-                descrip={proj.descrip}
-              />
-            ))}
-          </div>
-          <div className="art-mini">
-            <div className="art-container">
-              <img className="art-01" src={art01} alt="portrait-1" />
-              <img className="art-02" src={art02} alt="portrait-2" />
-              <img className="art-03" src={art03} alt="portrait-3" />
+              <br />
             </div>
-            <div className="art-descrip">
-              <span className="mini-proj-header">
-                <b>Audacity Illustration Series</b>
-              </span>
-              <br />A visual investigation into youth voice and expression of
-              contemporary youth issues, as well as the digital distortion of
-              these voices as we navigate a social landscape now inseparable
-              from the internet. A series of digital and traditional paintings.
-              <div className="mini-proj-tags">
-                <div
-                  className="mini-main-tag"
-                  style={{ background: "#eea506dc" }}
-                >
-                  <b>Illustration</b>
-                </div>
-                <div className="mini-proj-tag">
-                  <b>Clip Studio Paint</b>
+            <div className="pickles">
+              <span className="doing-stuff">Currently:</span>
+              {"  "}
+              <TextLoop
+                interval={3500}
+                fade={true}
+                springConfig={{ stiffness: 5, damping: 2 }}
+              >
+                <span className="stuff">resting, learning, making.</span>
+                <span className="stuff">
+                  {" "}
+                  developing @{" "}
+                  <a href="https://codebase.berkeley.edu/" target="_blank">
+                    Berkeley Codebase.
+                  </a>
+                </span>
+                <span className="stuff">elbows deep in oil paints.</span>
+                <span className="stuff">
+                  writing poetry on a Google doc that's seen some things.
+                </span>
+                <span className="stuff">
+                  freelancing, portrait commissions mostly.
+                </span>
+                <span className="stuff">
+                  designing @{" "}
+                  <a href="https://innovativedesign.club/" target="_blank">
+                    Innovative Design.
+                  </a>
+                </span>
+              </TextLoop>
+            </div>
+          </div>
+        </div>
+        <img className="bread-slice2" src={yue} alt="玥" />
+        <div className="content-two">
+          <div className="subheader">
+            Here are some things I've been working on and learning from.
+          </div>
+          <div className="all-minis">
+            <div className="tech-minis">
+              <svg
+                className="tech-blob"
+                viewBox="0 0 500 500"
+                width="100%"
+                id="blobSvg"
+              >
+                <path
+                  id="blob"
+                  d="M405.5,303.5Q436,357,373.5,356.5Q311,356,280.5,369.5Q250,383,208.5,388.5Q167,394,109.5,379Q52,364,40,307Q28,250,52.5,200Q77,150,134.5,149.5Q192,149,221,112Q250,75,298,79.5Q346,84,375.5,122.5Q405,161,390,205.5Q375,250,405.5,303.5Z"
+                  fill="none"
+                  stroke-width="7px"
+                  stroke="#aeabff"
+                ></path>
+              </svg>
+              {miniProjs.map((proj) => (
+                <MiniProject
+                  title={proj.title}
+                  image={proj.image}
+                  tags={proj.tags}
+                  mainTag={proj.mainTag}
+                  client={proj.client}
+                  clientName={proj.clientName}
+                  titleClickable={proj.titleClickable}
+                  titleUrl={proj.titleUrl}
+                  descrip={proj.descrip}
+                />
+              ))}
+            </div>
+            <div className="art-mini">
+              <div className="art-container">
+                <img className="art-01" src={art01} alt="portrait-1" />
+                <img className="art-02" src={art02} alt="portrait-2" />
+                <img className="art-03" src={art03} alt="portrait-3" />
+              </div>
+              <div className="art-descrip">
+                <span className="mini-proj-header">
+                  <b>Audacity Illustration Series</b>
+                </span>
+                <br />A visual investigation into youth voice and expression of
+                contemporary youth issues, as well as the digital distortion of
+                these voices as we navigate a social landscape now inseparable
+                from the internet. A series of digital and traditional
+                paintings.
+                <div className="mini-proj-tags">
+                  <div
+                    className="mini-main-tag"
+                    style={{ background: "#eea506dc" }}
+                  >
+                    <b>Illustration</b>
+                  </div>
+                  <div className="mini-proj-tag">
+                    <b>Clip Studio Paint</b>
+                  </div>
                 </div>
               </div>
             </div>
           </div>
         </div>
-      </div>
-
-      <Footer />
-    </main>
+        <Footer />
+      </main>
+    </div>
   );
 };
 

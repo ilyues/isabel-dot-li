@@ -54,6 +54,13 @@ h2 {
   margin-block-end: 0;
 }
 
+b {
+  text-transform: none;
+  text-decoration: none;
+  font-family: "whyte";
+  font-weight: normal;
+}
+
 .filling {
   align-content: center;
   align-items: center;
@@ -155,64 +162,25 @@ h2 {
   color: #111111;
 }
 
-@keyframes fadein {
-  from {
-    opacity: 0;
-  }
-  to {
-    opacity: 1;
-  }
-}
-
-/* Firefox < 16 */
-@-moz-keyframes fadein {
-  from {
-    opacity: 0;
-  }
-  to {
-    opacity: 1;
-  }
-}
-
-/* Safari, Chrome and Opera > 12.1 */
-@-webkit-keyframes fadein {
-  from {
-    opacity: 0;
-  }
-  to {
-    opacity: 1;
-  }
-}
-
-/* Internet Explorer */
-@-ms-keyframes fadein {
-  from {
-    opacity: 0;
-  }
-  to {
-    opacity: 1;
-  }
-}
+/* section two */
 
 .content-two {
-  height: 85vh;
-  margin: 40px;
+  height: 90vh;
+  margin: 20px;
+  margin-bottom: 60px;
   padding: 20px;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: center;
 }
 
-b {
-  text-transform: none;
-  text-decoration: none;
-  font-family: "whyte";
-  font-weight: normal;
-}
 .all-minis {
   display: flex;
   flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
 }
 .tech-minis {
   position: relative;
@@ -268,6 +236,205 @@ b {
   text-align: center;
 }
 
+.art-02 {
+  -webkit-animation-delay: -8s;
+  animation-delay: -8s;
+}
+.art-03 {
+  -webkit-animation-delay: -4s;
+  animation-delay: -4s;
+}
+
+.art-descrip {
+  font-family: "whyte-light";
+  font-size: 12px;
+  line-height: 18px;
+  width: 350px;
+  padding: 40px;
+}
+
+.tech-blob {
+  top: -200px;
+  left: -120px;
+  width: 650px;
+  position: absolute;
+  z-index: -10;
+  stroke-dasharray: 2000;
+  stroke-dashoffset: -2000;
+  animation: dash1 5s ease-in forwards;
+}
+
+/* for tablets? */
+
+@media screen and (max-width: 1130px) and (-webkit-min-device-pixel-ratio: 1) {
+  .all-minis {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+/* Mobile version */
+@media screen and (max-width: 580px) /* mobile */ {
+  main {
+    position: relative;
+    overflow: hidden;
+  }
+  h1 {
+    font-family: "whyte";
+    font-size: 32px;
+    font-weight: normal;
+    line-height: 40px;
+    margin: 10px;
+  }
+
+  .filling {
+    margin-top: 60px;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    height: 60vh;
+    border-radius: 20px;
+    max-width: 95vw;
+  }
+
+  .lettuce {
+    font-size: 14px;
+    font-family: "whyte-light";
+    font-weight: 100;
+    line-height: 18px;
+  }
+
+  .pickles {
+    overflow: hidden;
+    font-size: 12px;
+    font-family: "whyte";
+    font-weight: 100;
+    line-height: 16px;
+    color: #272727;
+    margin-inline-start: 0px;
+  }
+
+  .meat {
+    max-width: 65vw;
+    max-height: 80vw;
+    padding: 20px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+
+  .bread-slice1 {
+    top: -40px;
+    width: 400px;
+    overflow: hidden;
+  }
+
+  .bread-slice2 {
+    z-index: -3;
+  }
+
+  .bread-slice2:hover {
+    z-index: -3;
+  }
+
+  .doing-stuff {
+    font-size: 11px;
+    font-family: "whyte";
+  }
+
+  .stuff {
+    font-size: 11px;
+  }
+
+  .artist {
+    font-size: 11px;
+  }
+  .song {
+    font-size: 11px;
+  }
+
+  .content-two {
+    height: fit-content;
+    margin: 20px;
+    margin-bottom: 60px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    width: 95vw;
+  }
+
+  .all-minis {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+  }
+
+  .tech-minis {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    margin: 10px;
+  }
+  .art-mini {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    max-width: 300px;
+    margin: 10px;
+  }
+
+  .art-container {
+    position: relative;
+    width: 250px;
+    height: 325px;
+  }
+
+  .art-container img {
+    overflow: hidden;
+    width: 250px;
+    height: 325px;
+    position: absolute;
+    display: block;
+    object-fit: cover;
+    -webkit-animation-name: img-fade;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-duration: 12s;
+    animation-name: img-fade;
+    animation-iteration-count: infinite;
+    animation-duration: 12s;
+  }
+
+  .art-descrip {
+    font-family: "whyte-light";
+    font-size: 12px;
+    line-height: 18px;
+    width: 300px;
+    padding: 40px;
+  }
+
+  .subheader {
+    font-size: 20px;
+    font-family: "whyte";
+    font-weight: 100;
+    line-height: 26px;
+    max-width: 85vw;
+    margin: 20px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    text-align: center;
+  }
+}
+
+/* Animations */
 @-webkit-keyframes img-fade {
   0% {
     opacity: 0;
@@ -303,30 +470,41 @@ b {
   }
 }
 
-.art-02 {
-  -webkit-animation-delay: -8s;
-  animation-delay: -8s;
-}
-.art-03 {
-  -webkit-animation-delay: -4s;
-  animation-delay: -4s;
-}
-
-.art-descrip {
-  font-family: "whyte-light";
-  font-size: 12px;
-  line-height: 18px;
-  width: 350px;
-  padding: 40px;
+@keyframes fadein {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
 }
 
-.tech-blob {
-  top: -200px;
-  left: -120px;
-  width: 650px;
-  position: absolute;
-  z-index: -10;
-  stroke-dasharray: 2000;
-  stroke-dashoffset: -2000;
-  animation: dash1 5s ease-in forwards;
+/* Firefox < 16 */
+@-moz-keyframes fadein {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+/* Safari, Chrome and Opera > 12.1 */
+@-webkit-keyframes fadein {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+/* Internet Explorer */
+@-ms-keyframes fadein {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
 }

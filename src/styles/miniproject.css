@@ -28,6 +28,7 @@
   display: flex;
   flex-direction: row;
   margin: 5px;
+  flex-wrap: wrap;
 }
 .mini-proj-tag,
 .mini-main-tag {
@@ -77,4 +78,84 @@
 
 .mini-proj-link {
   color: #111111;
+}
+
+@media screen and (max-width: 580px) /* mobile */ {
+  .mini-proj img {
+    position: relative;
+    width: 225px;
+    transition: all 0.4s;
+    transition-property: all;
+    transition-duration: 0.4s;
+    transition-timing-function: ease;
+    transition-delay: 0s;
+  }
+
+  .mini-proj img:hover {
+    transform: scale(1.05, 1.05);
+  }
+
+  .mini-proj-left {
+    margin-right: 20px;
+  }
+
+  .mini-proj-right {
+    margin-inline-start: 0px;
+    font-size: 12px;
+    font-family: "whyte-light";
+    line-height: 18px;
+    width: 300px;
+  }
+
+  .mini-proj-tags {
+    display: flex;
+    flex-direction: row;
+
+    margin: 5px;
+  }
+  .mini-proj-tag,
+  .mini-main-tag {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 20px;
+    padding-left: 9px;
+    padding-right: 9px;
+    padding-top: 5px;
+    padding-bottom: 2px;
+    text-align: center;
+    margin: 5px;
+    backdrop-filter: blur(3px);
+  }
+
+  .mini-proj-tag {
+    background: #fbfbfb9a;
+    border: solid 1px #272727;
+  }
+
+  .mini-main-tag {
+    color: white;
+  }
+
+  .mini-proj {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    width: 300px;
+    height: fit-content;
+  }
+
+  .mini-proj-header {
+    font-size: 13px;
+    line-height: 16px;
+    padding-bottom: 6px;
+  }
+
+  .mini-proj-client {
+    font-size: 11px;
+    line-height: 14px;
+  }
 }
