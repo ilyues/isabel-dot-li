@@ -140,11 +140,9 @@ const Home = () => {
                   </a>
                 </span>
                 <span className="stuff">elbows deep in oil paints.</span>
+                <span className="stuff">writing poetry on a Google doc.</span>
                 <span className="stuff">
-                  writing poetry on a Google doc that's seen some things.
-                </span>
-                <span className="stuff">
-                  freelancing, portrait commissions mostly.
+                  freelancing, portrait commissions.
                 </span>
                 <span className="stuff">
                   designing @{" "}

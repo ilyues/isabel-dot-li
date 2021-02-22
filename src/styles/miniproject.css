@@ -17,11 +17,11 @@
 }
 
 .mini-proj-right {
-  margin-inline-start: 20px;
-  font-size: 12px;
+  margin: 20px;
+  font-size: 14px;
   font-family: "whyte-light";
-  line-height: 18px;
-  width: 385px;
+  line-height: 20px;
+  width: 425px;
 }
 
 .mini-proj-tags {
@@ -62,17 +62,17 @@
   justify-content: center;
   align-items: center;
   align-content: center;
-  width: 650px;
+  width: 725px;
 }
 
 .mini-proj-header {
-  font-size: 16px;
+  font-size: 18px;
   line-height: 24px;
   padding-bottom: 6px;
 }
 
 .mini-proj-client {
-  font-size: 14px;
+  font-size: 16px;
   line-height: 20px;
 }
 
@@ -100,11 +100,7 @@
   }
 
   .mini-proj-right {
-    margin-inline-start: 0px;
-    font-size: 12px;
-    font-family: "whyte-light";
-    line-height: 18px;
-    width: 300px;
+    max-width: 80vw;
   }
 
   .mini-proj-tags {
@@ -144,18 +140,18 @@
     justify-content: center;
     align-items: center;
     align-content: center;
-    width: 300px;
+    width: 425px;
     height: fit-content;
   }
 
   .mini-proj-header {
-    font-size: 13px;
-    line-height: 16px;
+    font-size: 18px;
+    line-height: 24px;
     padding-bottom: 6px;
   }
 
   .mini-proj-client {
-    font-size: 11px;
-    line-height: 14px;
+    font-size: 16px;
+    line-height: 20px;
   }
 }

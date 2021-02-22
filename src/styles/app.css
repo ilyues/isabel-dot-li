@@ -82,9 +82,7 @@ b {
 
 .pickles {
   overflow: hidden;
-  font-size: 16px;
-  font-family: "whyte";
-  font-weight: 100;
+
   line-height: 22px;
   color: #272727;
   margin-inline-start: 20px;
@@ -165,9 +163,8 @@ b {
 /* section two */
 
 .content-two {
-  height: 90vh;
+  height: fit-content;
   margin: 20px;
-  margin-bottom: 60px;
   padding: 20px;
   display: flex;
   flex-direction: column;
@@ -187,6 +184,7 @@ b {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  align-content: center;
   align-items: center;
   padding: 20px;
   margin: 10px;
@@ -247,15 +245,15 @@ b {
 
 .art-descrip {
   font-family: "whyte-light";
-  font-size: 12px;
-  line-height: 18px;
-  width: 350px;
+  font-size: 14px;
+  line-height: 20px;
+  width: 425px;
   padding: 40px;
 }
 
 .tech-blob {
   top: -200px;
-  left: -120px;
+  left: -220px;
   width: 650px;
   position: absolute;
   z-index: -10;
@@ -266,7 +264,7 @@ b {
 
 /* for tablets? */
 
-@media screen and (max-width: 1130px) and (-webkit-min-device-pixel-ratio: 1) {
+@media screen and (max-width: 1230px) and (-webkit-min-device-pixel-ratio: 1) {
   .all-minis {
     display: flex;
     flex-direction: column;
@@ -310,15 +308,16 @@ b {
   }
 
   .lettuce {
-    font-size: 14px;
+    font-size: 16px;
     font-family: "whyte-light";
     font-weight: 100;
     line-height: 18px;
   }
 
   .pickles {
+    display: inline-block;
     overflow: hidden;
-    font-size: 12px;
+    font-size: 16px;
     font-family: "whyte";
     font-weight: 100;
     line-height: 16px;
@@ -349,25 +348,28 @@ b {
   }
 
   .doing-stuff {
-    font-size: 11px;
+    font-size: 14px;
     font-family: "whyte";
   }
 
   .stuff {
-    font-size: 11px;
+    font-size: 14px;
+    display: inline-block;
+    max-width: 65vw;
+    text-overflow: ellipsis;
+    overflow-wrap: break-word;
   }
 
   .artist {
-    font-size: 11px;
+    font-size: 14px;
   }
   .song {
-    font-size: 11px;
+    font-size: 14px;
   }
 
   .content-two {
     height: fit-content;
     margin: 20px;
-    margin-bottom: 60px;
     padding: 20px;
     display: flex;
     flex-direction: column;
@@ -389,6 +391,7 @@ b {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    align-content: center;
     padding: 20px;
     margin: 10px;
   }
@@ -424,10 +427,7 @@ b {
   }
 
   .art-descrip {
-    font-family: "whyte-light";
-    font-size: 12px;
-    line-height: 18px;
-    width: 300px;
+    max-width: 80vw;
     padding: 40px;
   }
 
