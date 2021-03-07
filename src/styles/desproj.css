@@ -5,14 +5,14 @@ ul {
 .desproj b {
   font-family: 'whyte-med';
 }
-li::before {
+ul li::before {
   content: '•';
   display: inline-block;
   width: 1em;
   margin-left: -1em;
 }
 
-li ul li::before {
+ul li ul li::before {
   content: '◦';
   display: inline-block;
   width: 1em;
@@ -30,6 +30,7 @@ li ul li::before {
 }
 
 .desproj-container {
+  overflow: visible;
   padding: 20vw;
   padding-top: 10vw;
   display: flex;
