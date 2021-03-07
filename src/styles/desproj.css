@@ -1,0 +1,150 @@
+ul {
+  list-style: none;
+}
+
+.desproj b {
+  font-family: 'whyte-med';
+}
+li::before {
+  content: '•';
+  display: inline-block;
+  width: 1em;
+  margin-left: -1em;
+}
+
+li ul li::before {
+  content: '◦';
+  display: inline-block;
+  width: 1em;
+  margin-left: -1em;
+}
+
+.desproj img {
+  width: 60vw;
+}
+
+.desproj {
+  font-family: 'whyte-light';
+  font-size: 18px;
+  line-height: 28px;
+}
+
+.desproj-container {
+  padding: 20vw;
+  padding-top: 10vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+  width: 60vw;
+}
+
+.desproj-content {
+  margin-bottom: 60px;
+}
+
+.desproj-titlebox {
+  flex-direction: row;
+  display: flex;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+h5 {
+  /*title*/
+  font-family: 'whyte-med';
+  font-weight: bold;
+  font-size: 48px;
+  line-height: 60px;
+  padding: 20px;
+  margin: 20px;
+}
+
+.desproj-tagline {
+  /*title*/
+  font-family: 'whyte-it';
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 32px;
+  padding: 5px;
+  margin: 20px;
+}
+
+.desproj-header {
+  /*title*/
+  font-family: 'whyte-med';
+  font-weight: normal;
+  font-size: 36px;
+  line-height: 36px;
+  margin: 20px;
+}
+
+.desproj-subheader {
+  /*title*/
+  font-family: 'whyte-med';
+  font-weight: normal;
+  font-size: 32px;
+  line-height: 32px;
+  margin: 20px;
+  margin-top: 40px;
+}
+
+.desproj-subheader2 {
+  /*title*/
+  font-family: 'whyte';
+  font-weight: normal;
+  font-size: 28px;
+  line-height: 28px;
+  margin: 20px;
+  margin-top: 40px;
+}
+
+.desproj-headertag {
+  /*title*/
+  font-family: 'whyte-it';
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 18px;
+  margin-left: 2em;
+}
+
+.desproj-title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 30vw;
+  align-self: center;
+}
+.desproj-details {
+  flex-direction: column;
+  padding: 20px;
+  margin: 20px;
+  width: 20vw;
+}
+
+h6 {
+  font-family: 'whyte-med';
+  font-size: inherit;
+  line-height: inherit;
+  margin: 0;
+}
+
+@media screen and (max-width: 1000px) /* mobile */ {
+  .desproj-titlebox {
+    flex-direction: column;
+  }
+  .desproj-title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 65vw;
+    align-self: center;
+  }
+  .desproj-details {
+    flex-direction: column;
+    padding: 20px;
+    margin: 20px;
+    width: 60vw;
+  }
+}

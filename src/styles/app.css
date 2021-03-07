@@ -1,4 +1,4 @@
-@import url("../index.css");
+@import url('../index.css');
 
 html * {
   transition: 0.5s ease;
@@ -12,6 +12,14 @@ html * {
   -ms-animation: fadein 1s; /* Internet Explorer */
   -o-animation: fadein 1s; /* Opera < 12.1 */
   animation: fadein 1s;
+}
+
+img {
+  -webkit-user-drag: none;
+  -khtml-user-drag: none;
+  -moz-user-drag: none;
+  -o-user-drag: none;
+  user-drag: none;
 }
 
 ::selection {
@@ -36,7 +44,7 @@ main {
 }
 
 h1 {
-  font-family: "whyte";
+  font-family: 'whyte';
   font-size: 60px;
   font-weight: normal;
   line-height: 80px;
@@ -45,7 +53,7 @@ h1 {
 }
 
 h2 {
-  font-family: "whyte";
+  font-family: 'whyte';
   font-weight: normal;
   font-size: 48px;
   line-height: 66px;
@@ -57,7 +65,7 @@ h2 {
 b {
   text-transform: none;
   text-decoration: none;
-  font-family: "whyte";
+  font-family: 'whyte';
   font-weight: normal;
 }
 
@@ -73,7 +81,7 @@ b {
 
 .lettuce {
   font-size: 18px;
-  font-family: "whyte-light";
+  font-family: 'whyte-light';
   font-weight: 100;
   line-height: 25px;
   color: #272727;
@@ -135,23 +143,23 @@ b {
 }
 
 .doing-stuff {
-  font-family: "whyte";
+  font-family: 'whyte';
   font-size: 16px;
 }
 
 .stuff {
   margin-inline-start: 20px;
   font-size: 16px;
-  font-family: "whyte-light";
+  font-family: 'whyte-light';
 }
 
 .artist {
   font-size: 16px;
-  font-family: "whyte-thin";
+  font-family: 'whyte-thin';
 }
 .song {
   font-size: 16px;
-  font-family: "whyte-it";
+  font-family: 'whyte-it';
 }
 
 .stuff a {
@@ -225,7 +233,7 @@ b {
 
 .subheader {
   font-size: 2.6vw;
-  font-family: "whyte";
+  font-family: 'whyte';
   font-weight: 100;
   line-height: 3.6vw;
   max-width: 45vw;
@@ -244,7 +252,7 @@ b {
 }
 
 .art-descrip {
-  font-family: "whyte-light";
+  font-family: 'whyte-light';
   font-size: 14px;
   line-height: 20px;
   width: 425px;
@@ -278,7 +286,7 @@ b {
     overflow: hidden;
   }
   h1 {
-    font-family: "whyte";
+    font-family: 'whyte';
     font-size: 30px;
     font-weight: normal;
     line-height: 38px;
@@ -286,7 +294,7 @@ b {
   }
 
   h2 {
-    font-family: "whyte";
+    font-family: 'whyte';
     font-weight: normal;
     font-size: 36px;
     line-height: 44px;
@@ -309,7 +317,7 @@ b {
 
   .lettuce {
     font-size: 16px;
-    font-family: "whyte-light";
+    font-family: 'whyte-light';
     font-weight: 100;
     line-height: 18px;
   }
@@ -318,7 +326,7 @@ b {
     display: inline-block;
     overflow: hidden;
     font-size: 16px;
-    font-family: "whyte";
+    font-family: 'whyte';
     font-weight: 100;
     line-height: 16px;
     color: #272727;
@@ -349,7 +357,7 @@ b {
 
   .doing-stuff {
     font-size: 14px;
-    font-family: "whyte";
+    font-family: 'whyte';
   }
 
   .stuff {
@@ -433,7 +441,7 @@ b {
 
   .subheader {
     font-size: 20px;
-    font-family: "whyte";
+    font-family: 'whyte';
     font-weight: 100;
     line-height: 26px;
     max-width: 85vw;

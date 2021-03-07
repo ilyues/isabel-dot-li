@@ -42,3 +42,10 @@ code {
   font-weight: thin;
   font-style: normal;
 }
+
+@font-face {
+  font-family: "whyte-med";
+  src: url("./styles/font/WhyteInktrap-Medium.ttf");
+  font-weight: bold;
+  font-style: normal;
+}
