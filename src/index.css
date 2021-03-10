@@ -1,14 +1,14 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
-    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
 
@@ -18,34 +18,41 @@ code {
 } */
 
 @font-face {
-  font-family: "whyte";
-  src: url("./styles/font/Whyte-Inktrap-Regular.otf");
+  font-family: 'whyte';
+  src: url('./styles/font/Whyte-Inktrap-Regular.otf');
   font-weight: normal;
   font-style: normal;
 }
 @font-face {
-  font-family: "whyte-it";
-  src: url("./styles/font/WhyteInktrap-LightItalic.ttf");
+  font-family: 'whyte-it';
+  src: url('./styles/font/WhyteInktrap-LightItalic.ttf');
   font-weight: light;
   font-style: normal;
 }
 @font-face {
-  font-family: "whyte-light";
-  src: url("./styles/font/WhyteInktrap-Light.ttf");
+  font-family: 'whyte-light';
+  src: url('./styles/font/WhyteInktrap-Light.ttf');
   font-weight: light;
   font-style: normal;
 }
 
 @font-face {
-  font-family: "whyte-thin";
-  src: url("./styles/font/WhyteInktrap-Thin.ttf");
+  font-family: 'whyte-thin';
+  src: url('./styles/font/WhyteInktrap-Thin.ttf');
   font-weight: thin;
   font-style: normal;
 }
 
 @font-face {
-  font-family: "whyte-med";
-  src: url("./styles/font/WhyteInktrap-Medium.ttf");
+  font-family: 'whyte-med';
+  src: url('./styles/font/WhyteInktrap-Medium.ttf');
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'whyte-it-med';
+  src: url('./styles/font/WhyteInktrap-MediumItalic.ttf');
   font-weight: bold;
   font-style: normal;
 }

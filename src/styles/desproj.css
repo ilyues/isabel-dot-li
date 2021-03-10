@@ -31,8 +31,8 @@ ul li ul li::before {
 
 .desproj-container {
   overflow: visible;
-  padding: 20vw;
-  padding-top: 10vw;
+  padding: 5vw;
+  /* padding-top: 10vw; */
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -41,8 +41,29 @@ ul li ul li::before {
   width: 60vw;
 }
 
+.desproj-coverimage {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  height: 60vh;
+  width: 60vw;
+}
+
+.desproj-coverimage img {
+  min-height: 100%;
+  min-width: 100%;
+  object-fit: cover;
+}
 .desproj-content {
   margin-bottom: 60px;
+}
+
+.desproj-2col {
+  flex-direction: row;
+  display: flex;
+  padding: 20px;
+  align-items: center;
 }
 
 .desproj-titlebox {
@@ -72,6 +93,10 @@ h5 {
   margin: 20px;
 }
 
+.desproj-tagline b {
+  font-family: 'whyte-it-med';
+}
+
 .desproj-header {
   /*title*/
   font-family: 'whyte-med';
@@ -85,18 +110,18 @@ h5 {
   /*title*/
   font-family: 'whyte-med';
   font-weight: normal;
-  font-size: 32px;
-  line-height: 32px;
+  font-size: 30px;
+  line-height: 36px;
   margin: 20px;
   margin-top: 40px;
 }
 
 .desproj-subheader2 {
   /*title*/
-  font-family: 'whyte';
+  font-family: 'whyte-med';
   font-weight: normal;
-  font-size: 28px;
-  line-height: 28px;
+  font-size: 24px;
+  line-height: 32px;
   margin: 20px;
   margin-top: 40px;
 }
@@ -134,6 +159,11 @@ h6 {
 @media screen and (max-width: 1000px) /* mobile */ {
   .desproj-titlebox {
     flex-direction: column;
+  }
+  .desproj-2col {
+    flex-direction: column;
+    display: flex;
+    padding: inherit;
   }
   .desproj-title {
     display: flex;
