@@ -1,6 +1,6 @@
 import React from 'react';
 import Home from './Home';
-import About from './about';
+import About from './About';
 import ATMobile from './ATMobile';
 import ProAct from './ProAct';
 import { Route, Switch, BrowserRouter } from 'react-router-dom';
