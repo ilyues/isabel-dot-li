@@ -3,6 +3,7 @@ import Home from './Home';
 import About from './About';
 import ATMobile from './ATMobile';
 import ProAct from './ProAct';
+import Audacity from './Audacity';
 import { Route, Switch, BrowserRouter } from 'react-router-dom';
 
 function App() {
@@ -13,6 +14,7 @@ function App() {
         <Route exact path='/about' component={About} />
         <Route exact path='/at-mobile' component={ATMobile} />
         <Route exact path='/proact' component={ProAct} />
+        <Route exact path='/audacity' component={Audacity} />
       </Switch>
     </BrowserRouter>
   );

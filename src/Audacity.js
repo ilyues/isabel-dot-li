@@ -1,4 +1,3 @@
-/* eslint-disable react/jsx-no-target-blank */
 import { React, useEffect } from 'react';
 import './styles/desproj.css';
 import cover from './images/work/proact/proact-coverimage.png';
@@ -8,14 +7,13 @@ import sol1 from './images/work/proact/sol-1.png';
 import sol2 from './images/work/proact/sol-2.png';
 import sol3 from './images/work/proact/sol-3.png';
 import sol4 from './images/work/proact/sol-4.png';
-import logo from './images/work/proact/ProAct-logo.png';
 import Footer from './components/footer';
 import Navbar from './components/navbar';
 import Socials from './components/socials';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 
-const ProAct = () => {
+const Audacity = () => {
   useEffect(() => {
     AOS.init({
       duration: 1000,
@@ -43,7 +41,7 @@ const ProAct = () => {
             Zi Lin Wang. <p />
             Responsible for product design and pitching.
             <p>
-              <h6>Tools:</h6> Figma, Illustrator
+              <h6>Tools:</h6> Figma
             </p>
             <p>
               <h6>Timeline:</h6> 24h, 16-17 Jan 2021
@@ -54,35 +52,17 @@ const ProAct = () => {
           <div className='desproj-tagline'>
             Championing quality disaster response design and child welfare.
           </div>
-          <div className='desproj-2col'>
-            <p>
-              Our web dashboard and companion mobile app design were produced
-              for the 2021 Accenture #HackForGood hackathon challenge. We had 24
-              hours to create a product for one of their associated charities,
-              Save The Children Australia, and an additional 24 hours to create
-              a slide deck before pitching to the judges as a finalist.
-            </p>
-            <img
-              style={{ width: '20vw', marginLeft: '2vw' }}
-              src={logo}
-              alt='ProAct Logo'
-            />
-          </div>
-
           <p>
-            Our assigned client, Save The Children, is a relief provider for
-            children affected by disasters. They focus on establishing
-            child-friendly spaces in evacuation and recovery centres to ensure
-            children receive the crucial support, resources, and comfort they
-            need during an emergency, simultaneously relieving parents from the
-            responsibility of attending to their child in a high-stress
-            situation.{' '}
+            Save the Children is a relief provider for children affected by
+            disasters. They focus on establishing Child Friendly Spaces in
+            evacuation and recovery centres to ensure children are comfortable
+            during an emergency.{' '}
           </p>
           <p>
-            We were tasked with creating a product which utilised Twitter
-            sentiment analysis to aid Save The Children's relief efforts in some
-            way — problems they gave us included their response speed, accuracy,
-            and overall "reactive" (as opposed to proactive) approach.
+            Children are highly vulnerable in disasters and can{' '}
+            <b>harbour lifelong trauma</b> as a result of them. Therefore, it is
+            important to protect them during crises and provide them with
+            enhanced care.{' '}
           </p>
         </div>
         <div data-aos='fade-up' className='desproj-content'>
@@ -94,72 +74,19 @@ const ProAct = () => {
             </span>
           </div>
           <p>
-            After analysing the brief and posing our questions to the charity
-            representative through voice call, we identified and categorised
-            their main issues into the following pain points:
+            After analysing the brief and posing questions to the charity
+            representative, we came to the following conclusion about the
+            problem they are facing.
           </p>
-          <span style={{ fontSize: '22px', lineHeight: '30px' }}>
+          <p>
+            Currently, their services struggle to efficiently prioritise
+            resources and personnel, i.e. their services:
             <ol>
-              <li>
-                The lack of <b>live information</b> about disaster victims'
-                situations
-              </li>
-              <li>
-                An inability to evaluate <b>specific needs</b> from victims
-              </li>
-              <li>
-                Poor capacity to <b>monitor and adapt</b> to changing crisis
-                situations.
-              </li>
+              <li>Do not respond rapidly enough.</li>
+              <li>Do not address victim-specific needs.</li>
+              <li>Do not efficiently adapt to rapid developments.</li>
             </ol>
-          </span>
-          <p>
-            As a team, we proceeded to separately brainstorm and explore
-            solutions, before coming together and deciding to deliver a web
-            dashboard and companion app. We created low fidelity wireframes the
-            general structure of the web app, before moving to carefully how
-            each tab of dashboard features should be categorised and what
-            widgets would be most appropriate to showcase.
           </p>
-          <p>
-            As we moved through iterations, we developed common use cases for
-            both responders on the ground and to justify out decisions for the
-            major dashboard features. Our final solution provided Save The
-            Children the power to:
-            <span style={{ fontSize: '22px', lineHeight: '30px' }}>
-              <ul>
-                <li>
-                  Monitor a developing situation in <b>real-time</b>
-                </li>
-                <li>
-                  Evaluate children’s needs holistically through{' '}
-                  <b>community voices</b>
-                </li>
-                <li>
-                  Design an <b>adaptive response</b> with live feedback.
-                </li>
-              </ul>
-            </span>
-          </p>
-          <div className='desproj-2col'>
-            <a
-              style={{ backgroundColor: '#001561' }}
-              className='desproj-button'
-              href='https://www.figma.com/proto/sWyiqGI0au4RqPXMXIaVo4/ProAct-Demo?node-id=171%3A11&scaling=min-zoom'
-              target='_blank'
-            >
-              Dashboard Prototype
-            </a>
-            <a
-              style={{ backgroundColor: '#4C49D7' }}
-              className='desproj-button'
-              href='https://www.figma.com/proto/sWyiqGI0au4RqPXMXIaVo4/ProAct-Demo?node-id=98%3A681&scaling=min-zoom'
-              target='_blank'
-            >
-              Companion App Prototype
-            </a>
-          </div>
-
           <img src={desktop} alt='My redesign solutions' />
           <img src={mobile} alt='My redesign solutions for mobile' />
         </div>
@@ -207,7 +134,7 @@ const ProAct = () => {
           </div>
           <div className='desproj-2col'>
             <img
-              style={{ width: '40vw' }}
+              style={{ width: '30vw' }}
               src={sol1}
               alt='Solution #1: Centralised Disaster Management'
             />
@@ -271,7 +198,7 @@ const ProAct = () => {
               </div>
             </div>
             <img
-              style={{ width: '40vw' }}
+              style={{ width: '30vw' }}
               src={sol4}
               alt='Solution #4: Customisation'
             />
@@ -284,4 +211,4 @@ const ProAct = () => {
   );
 };
 
-export default ProAct;
+export default Audacity;
