@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/static/css/main.c7c5ac4b.chunk.css",
-    "main.js": "/static/js/main.3234719a.chunk.js",
-    "main.js.map": "/static/js/main.3234719a.chunk.js.map",
+    "main.css": "/static/css/main.7bc732b0.chunk.css",
+    "main.js": "/static/js/main.78adec3f.chunk.js",
+    "main.js.map": "/static/js/main.78adec3f.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.82478198.js",
     "runtime-main.js.map": "/static/js/runtime-main.82478198.js.map",
     "static/css/2.ec02d681.chunk.css": "/static/css/2.ec02d681.chunk.css",
@@ -10,7 +10,7 @@
     "static/js/2.f2b9939e.chunk.js.map": "/static/js/2.f2b9939e.chunk.js.map",
     "index.html": "/index.html",
     "static/css/2.ec02d681.chunk.css.map": "/static/css/2.ec02d681.chunk.css.map",
-    "static/css/main.c7c5ac4b.chunk.css.map": "/static/css/main.c7c5ac4b.chunk.css.map",
+    "static/css/main.7bc732b0.chunk.css.map": "/static/css/main.7bc732b0.chunk.css.map",
     "static/js/2.f2b9939e.chunk.js.LICENSE.txt": "/static/js/2.f2b9939e.chunk.js.LICENSE.txt",
     "static/media/LI.5d1d20e6.png": "/static/media/LI.5d1d20e6.png",
     "static/media/ProAct-logo.e1f2e8df.png": "/static/media/ProAct-logo.e1f2e8df.png",
@@ -29,7 +29,9 @@
     "static/media/cloud-02.828ad3a6.png": "/static/media/cloud-02.828ad3a6.png",
     "static/media/cofed.5ae4abb8.png": "/static/media/cofed.5ae4abb8.png",
     "static/media/competitors.4e48873e.png": "/static/media/competitors.4e48873e.png",
+    "static/media/cover.8abff381.png": "/static/media/cover.8abff381.png",
     "static/media/coverimage.4e3a3b4d.png": "/static/media/coverimage.4e3a3b4d.png",
+    "static/media/coverimage.5b0e302f.png": "/static/media/coverimage.5b0e302f.png",
     "static/media/currinfomap.90649af3.png": "/static/media/currinfomap.90649af3.png",
     "static/media/hambur.49a899ce.png": "/static/media/hambur.49a899ce.png",
     "static/media/lofis.88678931.png": "/static/media/lofis.88678931.png",
@@ -37,6 +39,9 @@
     "static/media/proact-coverimage.837b6e1d.png": "/static/media/proact-coverimage.837b6e1d.png",
     "static/media/proact.52539f7b.png": "/static/media/proact.52539f7b.png",
     "static/media/problemmap.f5508a9b.png": "/static/media/problemmap.f5508a9b.png",
+    "static/media/prop1.006accba.png": "/static/media/prop1.006accba.png",
+    "static/media/prop2.f036a149.png": "/static/media/prop2.f036a149.png",
+    "static/media/prop3.c9d731f6.jpg": "/static/media/prop3.c9d731f6.jpg",
     "static/media/sol-1.392257ec.png": "/static/media/sol-1.392257ec.png",
     "static/media/sol-2.958b4e24.png": "/static/media/sol-2.958b4e24.png",
     "static/media/sol-3.943e6a6c.png": "/static/media/sol-3.943e6a6c.png",
@@ -53,7 +58,7 @@
     "static/js/runtime-main.82478198.js",
     "static/css/2.ec02d681.chunk.css",
     "static/js/2.f2b9939e.chunk.js",
-    "static/css/main.c7c5ac4b.chunk.css",
-    "static/js/main.3234719a.chunk.js"
+    "static/css/main.7bc732b0.chunk.css",
+    "static/js/main.78adec3f.chunk.js"
   ]
 }
