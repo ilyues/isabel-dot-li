@@ -85,7 +85,7 @@ const ATMobile = () => {
             After analysing the product and <b>market research</b>, as well as
             conducting user research through analysis of{' '}
             <b>demographic context</b>,<b>app reviews</b>, and{' '}
-            <b>user interviews</b>, I created <b>user stories</b> and
+            <b>user interviews</b>, I created <b>user stories</b> and{' '}
             <b>synthesised</b> my analyses to refine the design problem.
           </p>
           <p>
@@ -250,7 +250,7 @@ const ATMobile = () => {
             Given the limited timeline of this project, I focused on gathering
             information on commuters’ experiences of using the app in two main
             ways:
-            <span style={{ fontSize: '22px', lineHeight: '30px' }}>
+            <span className='desproj-emph'>
               <ul>
                 <li>
                   <b>App reviews,</b> so I can take a look at a large cross
@@ -365,7 +365,7 @@ const ATMobile = () => {
             opportunities for the AT Mobile app, I was able to further revise
             the problem statement into three main aims:
           </p>
-          <span style={{ fontSize: '22px', lineHeight: '30px' }}>
+          <span className='desproj-emph'>
             <ol>
               <li>
                 Improve users’ easy management of their AT Hop cards, balance,

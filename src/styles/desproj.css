@@ -2,6 +2,11 @@ ul {
   list-style: none;
 }
 
+ul li,
+ol li {
+  padding: 5px 0px;
+}
+
 .desproj b {
   font-family: 'whyte-med';
 }
@@ -21,6 +26,12 @@ ul li ul li::before {
 
 .desproj img {
   width: 60vw;
+}
+.desproj a {
+  font-family: 'whyte';
+}
+a:visited {
+  color: #131313;
 }
 
 a.desproj-button {
@@ -44,8 +55,8 @@ a.desproj-button {
 
 .desproj {
   font-family: 'whyte-light';
-  font-size: 18px;
-  line-height: 28px;
+  font-size: 17px;
+  line-height: 20px;
 }
 
 .desproj-container {
@@ -175,7 +186,15 @@ h6 {
   margin: 0;
 }
 
+.desproj-emph {
+  font-size: 22px;
+  line-height: 26px;
+}
+
 @media screen and (max-width: 1000px) /* mobile */ {
+  .desproj {
+    font-size: 16px;
+  }
   .desproj-titlebox {
     flex-direction: column;
     justify-content: flex-start;
@@ -196,6 +215,17 @@ h6 {
     height: 40vh;
   }
 
+  .desproj-emph {
+    font-size: 18px;
+    line-height: 21px;
+  }
+
+  .desproj-tagline {
+    font-size: 20px;
+    line-height: 23px;
+    padding: 5px;
+    margin: 5px;
+  }
   .desproj-title {
     display: flex;
     flex-direction: column;
@@ -209,11 +239,23 @@ h6 {
     padding-top: 20px;
     margin: 0;
     margin-top: 20px;
+    font-size: 36px;
+    line-height: 40px;
   }
   .desproj-details {
     flex-direction: column;
     padding: 20px;
     margin: 20px;
     width: 70vw;
+  }
+
+  .desproj-container {
+    width: 80vw;
+  }
+
+  .desproj-container img {
+    align-self: center;
+    justify-self: center;
+    width: 80vw;
   }
 }

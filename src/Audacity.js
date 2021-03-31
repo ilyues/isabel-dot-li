@@ -1,11 +1,11 @@
 import { React, useEffect } from 'react';
 import './styles/desproj.css';
-import cover from './images/work/proact/proact-coverimage.png';
-import desktop from './images/work/proact/big-frame.png';
-import mobile from './images/work/proact/big-frame-mobile.png';
-import sol1 from './images/work/proact/sol-1.png';
-import sol2 from './images/work/proact/sol-2.png';
-import sol3 from './images/work/proact/sol-3.png';
+import overview from './images/work/audacity/coverimage.png';
+import cover from './images/work/audacity/cover.png';
+
+import prop1 from './images/work/audacity/prop1.png';
+import prop2 from './images/work/audacity/prop2.png';
+import prop3 from './images/work/audacity/prop3.jpg';
 import sol4 from './images/work/proact/sol-4.png';
 import Footer from './components/footer';
 import Navbar from './components/navbar';
@@ -31,38 +31,64 @@ const Audacity = () => {
         <div className='desproj-titlebox'>
           <div className='desproj-title'>
             <h5>
-              ProAct:
-              <br />
-              Disaster Response Dashboard
+              Audacity:
+              <br />A Visual Exploration
             </h5>
           </div>
           <div className='desproj-details'>
-            <h6>Team:</h6>In collaboration with Mun Joon Teo, Winny Jiang, and
-            Zi Lin Wang. <p />
-            Responsible for product design and pitching.
+            <h6>Purpose(s):</h6>
+            <a
+              href='https://www.nzqa.govt.nz/qualifications-standards/awards/new-zealand-scholarship/scholarship-subjects/visual-arts/'
+              target='_blank'
+            >
+              NZQA Scholarship Art
+            </a>
+            , partially. Then curiosity, and a desire to understand the modern
+            world.
             <p>
-              <h6>Tools:</h6> Figma
+              <h6>Tools and materials:</h6> Oil paints, watercolour, gouache,
+              dye, ink, alcohol markers, fishing wire, 4mm MDF and a 3D router,
+              VCarve, Clip Studio Paint, Adobe Photoshop, lots and lots of red
+              heart stickers off AliExpress.
             </p>
             <p>
-              <h6>Timeline:</h6> 24h, 16-17 Jan 2021
+              <h6>Timeline:</h6> May - Oct 2019
             </p>
           </div>
         </div>
         <div data-aos='fade-up' className='desproj-content'>
           <div className='desproj-tagline'>
-            Championing quality disaster response design and child welfare.
+            This is an investigation into youth voice.
           </div>
           <p>
-            Save the Children is a relief provider for children affected by
-            disasters. They focus on establishing Child Friendly Spaces in
-            evacuation and recovery centres to ensure children are comfortable
-            during an emergency.{' '}
+            In my final year of high school, I became increasingly aware of how
+            technology affected my life; not just in the hardware sense of
+            carrying a lump of aluminium alloys and gold wiring with me
+            whereever I went, but also in the sense that those wires and oxides
+            rewrote the way my mind interacted with the world.
           </p>
           <p>
-            Children are highly vulnerable in disasters and can{' '}
-            <b>harbour lifelong trauma</b> as a result of them. Therefore, it is
-            important to protect them during crises and provide them with
-            enhanced care.{' '}
+            Penning this now in the pandemic era, where everything seemed to
+            shift several bits more over towards a digital reality in the
+            shortest span of time, I can't help but feel this documentary was in
+            preparation for the world to come. Or rather, the world that was
+            already lying in wait, ready for someone to give the all-clear.{' '}
+          </p>
+          <p>
+            Technology is not <i>about</i> apps and websites and robots; it's
+            about personal identity, communication, community. Art, culture,
+            creation, and destruction. Gender, class, race, ability. It's about
+            our society because it is our society. The apps and websites and
+            robots are a vessel. It's what we've made out of the human
+            experience, and what we're hurtling towards while the earth spins in
+            sync as the universe's largest loading screen.
+          </p>
+
+          <p>
+            For this project, I zeroed in on how technology affects youth
+            identity and interaction, synthesising a selection of artist models
+            and developing my understanding of this issue. There's much more to
+            be explored in regards to tech, but this was my beginning.
           </p>
         </div>
         <div data-aos='fade-up' className='desproj-content'>
@@ -70,61 +96,143 @@ const Audacity = () => {
             Overview
             <br />
             <span className='desproj-headertag'>
-              Problem, process, outcome.
+              The starting line, and the journey that followed.
             </span>
           </div>
           <p>
-            After analysing the brief and posing questions to the charity
-            representative, we came to the following conclusion about the
-            problem they are facing.
+            I developed a project proposal that would contextualise and drive
+            the project; the focus of this was the digital experience of young
+            people, which I felt was often overlooked as a 'side-effect' of
+            life, while it constituted a lot more.
           </p>
           <p>
-            Currently, their services struggle to efficiently prioritise
-            resources and personnel, i.e. their services:
-            <ol>
-              <li>Do not respond rapidly enough.</li>
-              <li>Do not address victim-specific needs.</li>
-              <li>Do not efficiently adapt to rapid developments.</li>
-            </ol>
+            My exploration could be divided into four main sections:
+            <span style={{ fontSize: '22px', lineHeight: '30px' }}>
+              <ul>
+                <li>Suppression.</li>
+                <li>Explosion.</li>
+                <li>Distortion.</li>
+                <li>Censorship.</li>
+              </ul>
+            </span>
           </p>
-          <img src={desktop} alt='My redesign solutions' />
-          <img src={mobile} alt='My redesign solutions for mobile' />
+
+          <p>
+            My final body of work consisted of several paintings moving through
+            these topics.
+          </p>
+          <img src={overview} alt='An overview of my completed work' />
         </div>
         <div data-aos='fade-up' className='desproj-content'>
           <div className='desproj-header'>
-            Use cases
+            The Proposal
             <br />
-            <span className='desproj-headertag'>
-              Investigating users' needs
-            </span>
+            <span className='desproj-headertag'>My point of focus.</span>
           </div>
           <p>
-            To determine how to effectively provide support to these children,
-            we examined what needed to be done at all stages of the crisis
-            response.
+            <b>THIS IS AN INVESTIGATION INTO YOUTH VOICE</b> and expression of
+            contemporary youth issues, as well as the digital distortion of
+            these voices as we navigate a social landscape now inseparable from
+            the internet.{' '}
+          </p>
+          <div className='desproj-2col'>
+            <div>
+              <p>
+                This point of interest is a culmination of my recent
+                observations of frustrated groups and individuals -- most
+                notably (and perhaps strangely) an article I read about the
+                spectacular commercial failure of Target’s Canadian expansion.
+                This article in particular overlaid the embedded images with
+                blood-red, graffiti-like quotes - a presentation which matched
+                the desperation and anguish of the quoted content. It struck me
+                that despite the intangible nature of the issue (corporate
+                collapse!) the emotions associated with the issue are just as
+                intense and visceral, although almost never presented as such in
+                public.
+              </p>
+            </div>
+            <img
+              style={{
+                width: '12vw',
+                paddingLeft: '20px',
+                paddingRight: '20px',
+              }}
+              src={prop1}
+              alt='A screenshot from the Target Canada article'
+            />
+            <img
+              style={{
+                width: '12vw',
+                paddingLeft: '20px',
+                paddingRight: '20px',
+              }}
+              src={prop2}
+              alt='Another screenshot of the Target Canada article'
+            />
+          </div>
+          <p>
+            A trip to Paris this past November during the gilets jaunes’ riots,
+            in combination with the recent climate change strikes, provided my
+            understanding of what public outcry looks like; people united by the
+            same dissatisfaction to give that dissatisfaction a voice.
+          </p>{' '}
+          <div className='desproj-2col'>
+            <img
+              style={{
+                width: '20vw',
+                paddingRight: '20px',
+                paddingLeft: '20px',
+              }}
+              src={prop3}
+              alt='A photo I took in Paris'
+            />
+            <div>
+              <p>
+                {' '}
+                But what of frustration on an individual level? The marriage of
+                these two ideas - of more ‘abstract’ issues often being
+                truncated in their perceived emotional effect, and of public
+                voices dominating the the attention economy - lends the thought
+                that as youth grow with a digital, inherently intangible
+                component to their lives, their private problems and underlying
+                emotions dip further into obscurity. It aligns with my
+                experiences on the local youth council this year as we grapple
+                with confronting contemporary youth issues, which I’ve
+                discovered are more to do with feeling unheard and uncertain
+                than practical problems with visible solutions. It brings to
+                mind this year’s theme of our annual youth week: we are more
+                than you see.
+              </p>
+            </div>
+          </div>
+          <p>
+            It’s impossible not to consider the role of online platforms in
+            producing this culture of smothered silence. Those who don’t use
+            social media as extensively as our youth do today (and it must be
+            noted that social media serves as a vessel for regular aspects of
+            our lives, not a vague, foreign intrusion which replaces and
+            distracts from the now!) often mistake the ubiquity of these
+            platforms as an expansion of opportunities for us to express
+            ourselves. My own personal assessment of my experiences online,
+            especially as a young artist interested in growing an audience,
+            networking, and reaching others through my work, suggests that the
+            ever-expanding digital universe only makes it easier for our voices
+            to be projected into a vacuum. To be (or arguably more importantly,
+            feel) heard is not simply to have the space to speak, but to be
+            heard above everyone else - and in a digital world which lends to
+            infinitely many voices, a world saturated in noise, we often feel
+            smaller than ever.
           </p>
           <p>
-            We came up with the following use cases:
-            <ol>
-              <li>
-                Before an event, sentiment analysis is used to predict the
-                movement of people and prepare resources and personnel in
-                advance.
-              </li>
-              <li>
-                During the event, Twitter and official government data is
-                collected to monitor the situation and keep headquarters
-                updated.
-              </li>
-              <li>
-                After the initial response, our companion app lets responders
-                communicate with headquarters to efficiently provide support
-                based on the capacities of safe spaces.
-              </li>
-            </ol>
+            <b>MY INTENT</b> is to present the modern context of youth
+            expression, and a study of its suppression and distortion. Without a
+            physical form our voices and opinions seem brittle, but the
+            simmering emotions beneath the surface must be recognised as equally
+            potent, and equally powerful, as those which take form in riots,
+            vandalism, and violence.
           </p>
         </div>
-        <div data-aos='fade-up' className='desproj-content'>
+        {/* <div data-aos='fade-up' className='desproj-content'>
           <div className='desproj-header'>
             Solutions
             <br />
@@ -132,78 +240,7 @@ const Audacity = () => {
               The proposed answers to our questions.
             </span>
           </div>
-          <div className='desproj-2col'>
-            <img
-              style={{ width: '30vw' }}
-              src={sol1}
-              alt='Solution #1: Centralised Disaster Management'
-            />
-            <div>
-              <div className='desproj-subheader2'>
-                1. Centralised Disaster Management
-              </div>
-              <div>
-                Our centralised platform reduces response lag time, one of the
-                major pain points for relief.
-              </div>
-            </div>
-          </div>
-          <div className='desproj-2col'>
-            <div>
-              <div className='desproj-subheader2'>
-                2. People's Needs and Government Sources
-              </div>
-              <div>
-                <p>
-                  We analyse twitter feeds for event-specific tweets. Then,
-                  leveraging sentiment analysis we quickly identify “negative”
-                  tweets that indicate a family requires aid. Our platform also
-                  pulls updates from government sources to provide HQ with
-                  relevant developments.
-                </p>
-                <p>
-                  This creates a holistic view of families in crises by
-                  considering reliable, official sources and also community
-                  voices from tweets.
-                </p>
-              </div>
-            </div>
-            <img
-              style={{ width: '30vw' }}
-              src={sol2}
-              alt="Solution #2: People's Needs and Government Sources"
-            />
-          </div>
-          <div className='desproj-2col'>
-            <img
-              style={{ width: '30vw' }}
-              src={sol3}
-              alt='Solution #3: Companion App'
-            />
-            <div>
-              <div className='desproj-subheader2'>3. Companion App</div>
-              <div>
-                Respondents can contact HQ for resources and personnel via the
-                companion app. Messages are then sent to the dashboard
-              </div>
-            </div>
-          </div>
-          <div className='desproj-2col'>
-            <div>
-              <div className='desproj-subheader2'>4. Customisation</div>
-              <div>
-                A dashboard can be created for each event, featuring
-                event-specific twitter analysis, news updates and respondent
-                collaboration.
-              </div>
-            </div>
-            <img
-              style={{ width: '30vw' }}
-              src={sol4}
-              alt='Solution #4: Customisation'
-            />
-          </div>
-        </div>
+        </div> */}
       </div>
       <Socials />
       <Footer />

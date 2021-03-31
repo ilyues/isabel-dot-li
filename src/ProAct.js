@@ -98,7 +98,7 @@ const ProAct = () => {
             representative through voice call, we identified and categorised
             their main issues into the following pain points:
           </p>
-          <span style={{ fontSize: '22px', lineHeight: '30px' }}>
+          <span className='desproj-emph'>
             <ol>
               <li>
                 The lack of <b>live information</b> about disaster victims'
@@ -126,7 +126,7 @@ const ProAct = () => {
             both responders on the ground and to justify out decisions for the
             major dashboard features. Our final solution provided Save The
             Children the power to:
-            <span style={{ fontSize: '22px', lineHeight: '30px' }}>
+            <span className='desproj-emph'>
               <ul>
                 <li>
                   Monitor a developing situation in <b>real-time</b>
