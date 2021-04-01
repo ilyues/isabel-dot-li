@@ -111,6 +111,7 @@ const ATMobile = () => {
             visually reorganising and redesigning my original construction of
             the app's information architecture, and digital wireframing.
           </p>
+          <img src={solutions} alt='My redesign solutions' />
           <p>
             My product redesign targeted:
             <ul>
@@ -140,7 +141,6 @@ const ATMobile = () => {
               </li>
             </ul>
           </p>
-          <img src={solutions} alt='My redesign solutions' />
         </div>
         <div data-aos='fade-up' className='desproj-content'>
           <div className='desproj-header'>

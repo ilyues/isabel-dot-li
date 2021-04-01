@@ -1,152 +1,218 @@
-import * as React from "react";
-import "./styles/app.css";
-import li from "./images/LI.png";
-import yue from "./images/YUE.png";
-import Navbar from "./components/navbar";
-import Footer from "./components/footer";
-import Socials from "./components/socials";
-import MiniProject from "./components/miniproject";
-import TextLoop from "react-text-loop";
-import cofed from "./images/work/cofed.png";
-import proact from "./images/work/proact.png";
-import hambur from "./images/work/hambur.png";
-import art01 from "./images/art-01.jpg";
-import art02 from "./images/art-02.jpg";
-import art03 from "./images/art-03.jpg";
+import { React, useEffect } from 'react';
+import './styles/app.css';
+import li from './images/LI.png';
+import yue from './images/YUE.png';
+import Navbar from './components/navbar';
+import Footer from './components/footer';
+import Socials from './components/socials';
+import MiniProject from './components/miniproject';
+import ProjectItem from './components/proj';
+import TextLoop from 'react-text-loop';
+import cofed from './images/work/cofed.png';
+import proact from './images/work/proact.png';
+import hambur from './images/work/hambur.png';
+import atmobile from './images/work/atmobile/sol-home.png';
+import art01 from './images/art-01.jpg';
+import art02 from './images/art-02.jpg';
+import art03 from './images/art-03.jpg';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 // markup
 const Home = () => {
+  useEffect(() => {
+    AOS.init({
+      duration: 1000,
+    });
+  }, []);
+
   // changing greeting largely inspired by http://ellen.li
   var today = new Date();
   var hourNow = today.getHours();
   var hello;
 
   if (hourNow > 18) {
-    hello = "Evening!";
+    hello = 'Evening!';
   } else if (hourNow > 12) {
-    hello = "Good afternoon!";
+    hello = 'Good afternoon!';
   } else if (hourNow > 5) {
-    hello = "Morena!";
+    hello = 'Morena!';
   } else {
-    hello = "Kia ora!";
+    hello = 'Kia ora!';
   }
 
   // items for the things i'm currently doing
   const items = [
     <span>
-      <span className="song">R U Mine?</span>{" "}
-      <span className="artist">— Arctic Monkeys</span>
+      <span className='song'>R U Mine?</span>{' '}
+      <span className='artist'>— Arctic Monkeys</span>
     </span>,
     <span>
-      <span className="song">愛人錯過</span>{" "}
-      <span className="artist">— 告五人</span>
+      <span className='song'>愛人錯過</span>{' '}
+      <span className='artist'>— 告五人</span>
     </span>,
     <span>
-      <span className="song">Snow 눈</span>{" "}
-      <span className="artist">— SURL</span>
+      <span className='song'>Snow 눈</span>{' '}
+      <span className='artist'>— SURL</span>
     </span>,
     <span>
-      <span className="song">Opera House</span>{" "}
-      <span className="artist">— Cigarettes After Sex</span>
+      <span className='song'>Opera House</span>{' '}
+      <span className='artist'>— Cigarettes After Sex</span>
     </span>,
     <span>
-      <span className="song">No Blueberries</span>{" "}
-      <span className="artist">— CL + DPR IAN + DPR LIVE</span>
+      <span className='song'>No Blueberries</span>{' '}
+      <span className='artist'>— CL + DPR IAN + DPR LIVE</span>
     </span>,
   ];
 
   // mini projs - move to airtable or something, eventually
   const miniProjs = [
     {
-      title: "MyceliYum Web Portal",
+      title: 'Auckland Transport Mobile Redesign Sprint',
+      titleClickable: true,
+      titleUrl: 'http://isabel.li/at-mobile',
+      client: false,
+      clientName: null,
+      clientClickable: false,
+      clientUrl: null,
+      descrip:
+        'Mobility is integral to work, education, and community. Knowing this is an issue which affects a significant population of Auckland city, I endeavoured to redesign the UI/UX and overall product for a more frictionless commute.',
+      mainTag: 'Product design',
+      tags: ['User research', 'UI/UX', 'Wireframing', 'Figma'],
+      image: atmobile,
+    },
+    {
+      title: 'MyceliYum Web Portal',
       titleClickable: false,
       titleUrl: null,
       client: true,
-      clientName: "CoFED",
+      clientName: 'CoFED',
       clientClickable: true,
-      clientUrl: "http://cofed.coop/",
+      clientUrl: 'http://cofed.coop/',
       descrip:
-        "Worked with a team of eight to produce a web portal for BIPOC-led food and land co-operatives at every point along the food chain to connect. Strengthened secure co-op networking with profile personalisation, location search, and customised filters.",
-      mainTag: "Web dev",
-      tags: ["React.js", "Express.js", "PostgreSQL"],
+        'Worked with a team of eight to produce a web portal for BIPOC-led food and land co-operatives at every point along the food chain to connect. Strengthened secure co-op networking with profile personalisation, location search, and customised filters.',
+      mainTag: 'Web dev',
+      tags: ['React.js', 'Express.js', 'PostgreSQL'],
       image: cofed,
     },
     {
-      title: "Proact Disaster Response Dashboard",
+      title: 'AUDACITY: Investigation into Youth Voice',
       titleClickable: false,
       titleUrl: null,
       client: true,
+      clientName: 'CoFED',
+      clientClickable: true,
+      clientUrl: 'http://cofed.coop/',
+      descrip:
+        'Worked with a team of eight to produce a web portal for BIPOC-led food and land co-operatives at every point along the food chain to connect. Strengthened secure co-op networking with profile personalisation, location search, and customised filters.',
+      mainTag: 'Web dev',
+      tags: ['React.js', 'Express.js', 'PostgreSQL'],
+      image: cofed,
+    },
+    {
+      title: 'Proact Disaster Response Dashboard',
+      titleClickable: true,
+      titleUrl: 'http://isabel.li/proact',
+      client: true,
       clientClickable: false,
       clientUrl: null,
-      clientName: "Save the Children (#HackForGood Accenture)",
+      clientName: 'Save the Children (#HackForGood Accenture)',
       descrip:
-        "In a team of four, designed dashboard and companion app to streamline natural disaster crisis response and identify victim needs. Uses real-time information through community (sentiment analysis) and government sources, tailored crisis map, and standardised responder communication system.",
-      mainTag: "Product design",
-      tags: ["Figma", "Wireframing", "Prototyping"],
+        'In a team of four, designed dashboard and companion app to streamline natural disaster crisis response and identify victim needs. Uses real-time information through community (sentiment analysis) and government sources, tailored crisis map, and standardised responder communication system.',
+      mainTag: 'Product design',
+      tags: ['Figma', 'Wireframing', 'Prototyping'],
       image: proact,
     },
     {
-      title: "Hamburbur Stack Visualiser",
+      title: 'How We Fall Apart Character Illustrations',
+      titleClickable: false,
+      titleUrl: null,
+      client: true,
+      clientName: 'CoFED',
+      clientClickable: true,
+      clientUrl: 'http://cofed.coop/',
+      descrip:
+        'Worked with a team of eight to produce a web portal for BIPOC-led food and land co-operatives at every point along the food chain to connect. Strengthened secure co-op networking with profile personalisation, location search, and customised filters.',
+      mainTag: 'Web dev',
+      tags: ['React.js', 'Express.js', 'PostgreSQL'],
+      image: cofed,
+    },
+    {
+      title: 'Around the World!: Charity Zine',
+      titleClickable: false,
+      titleUrl: null,
+      client: true,
+      clientName: 'CoFED',
+      clientClickable: true,
+      clientUrl: 'http://cofed.coop/',
+      descrip:
+        'Worked with a team of eight to produce a web portal for BIPOC-led food and land co-operatives at every point along the food chain to connect. Strengthened secure co-op networking with profile personalisation, location search, and customised filters.',
+      mainTag: 'Web dev',
+      tags: ['React.js', 'Express.js', 'PostgreSQL'],
+      image: cofed,
+    },
+    {
+      title: 'Hamburbur Stack Visualiser',
       titleClickable: true,
-      titleUrl: "https://ilyues.github.io/hambur/",
+      titleUrl: 'https://ilyues.github.io/hambur/',
       client: false,
       clientClickable: false,
       clientUrl: null,
       clientName: null,
       descrip:
-        "Fun and novel interactive web browser visualisation of the stack data structure, made with the p5.js JavaScript library.",
-      mainTag: "Web dev",
-      tags: ["HTML/CSS", "p5.js"],
+        'Fun and novel interactive web browser visualisation of the stack data structure, made with the p5.js JavaScript library.',
+      mainTag: 'Web dev',
+      tags: ['HTML/CSS', 'p5.js'],
       image: hambur,
     },
   ];
   return (
-    <div className="wrapper">
+    <div className='wrapper'>
       <main>
         <title>Isabel Li 🖍️</title>
 
         <Navbar />
 
-        <img className="bread-slice1" src={li} alt="李" />
+        <img className='bread-slice1' src={li} alt='李' />
 
-        <div className="filling">
-          <div className="meat">
-            <div className="lettuce">🖍️ {hello} </div>
+        <div className='filling'>
+          <div className='meat'>
+            <div className='lettuce'>🖍️ {hello} </div>
             <h1>
               I’m Isabel. <br /> I design, illustrate, and code towards a kinder
               world.
             </h1>
-            <div className="pickles">
-              <span className="doing-stuff">Listening to:</span>{" "}
-              <span className="stuff">
+            <div className='pickles'>
+              <span className='doing-stuff'>Listening to:</span>{' '}
+              <span className='stuff'>
                 {items[Math.floor(Math.random() * items.length)]}
               </span>
               <br />
             </div>
-            <div className="pickles">
-              <span className="doing-stuff">Currently:</span>
-              {"  "}
+            <div className='pickles'>
+              <span className='doing-stuff'>Currently:</span>
+              {'  '}
               <TextLoop
                 interval={3500}
                 fade={true}
                 springConfig={{ stiffness: 5, damping: 2 }}
               >
-                <span className="stuff">resting, learning, making.</span>
-                <span className="stuff">
-                  {" "}
-                  developing @{" "}
-                  <a href="https://codebase.berkeley.edu/" target="_blank">
+                <span className='stuff'>resting, learning, making.</span>
+                <span className='stuff'>
+                  {' '}
+                  developing @{' '}
+                  <a href='https://codebase.berkeley.edu/' target='_blank'>
                     Berkeley Codebase.
                   </a>
                 </span>
-                <span className="stuff">elbows deep in oil paints.</span>
-                <span className="stuff">writing poetry on a Google doc.</span>
-                <span className="stuff">
+                <span className='stuff'>elbows deep in oil paints.</span>
+                <span className='stuff'>writing poetry on a Google doc.</span>
+                <span className='stuff'>
                   freelancing, portrait commissions.
                 </span>
-                <span className="stuff">
-                  designing @{" "}
-                  <a href="https://innovativedesign.club/" target="_blank">
+                <span className='stuff'>
+                  designing @{' '}
+                  <a href='https://innovativedesign.club/' target='_blank'>
                     Innovative Design.
                   </a>
                 </span>
@@ -154,11 +220,31 @@ const Home = () => {
             </div>
           </div>
         </div>
-        <img className="bread-slice2" src={yue} alt="玥" />
-        <div className="content-two">
-          <div className="subheader">
-            Here are some things I've been working on and learning from.
+        <img className='bread-slice2' src={yue} alt='玥' />
+        <div className='content-two'>
+          <div className='subheader-cont'>
+            <div className='subheader'>
+              Here are some things I've been working on and learning from.
+            </div>
           </div>
+          <div className='proj-list'>
+            {miniProjs.map((proj) => (
+              <div data-aos='fade-up'>
+                <ProjectItem
+                  title={proj.title}
+                  image={proj.image}
+                  tags={proj.tags}
+                  mainTag={proj.mainTag}
+                  client={proj.client}
+                  clientName={proj.clientName}
+                  titleClickable={proj.titleClickable}
+                  titleUrl={proj.titleUrl}
+                  descrip={proj.descrip}
+                />
+              </div>
+            ))}
+          </div>
+          {/* 
           <div className="all-minis">
             <div className="tech-minis">
               <svg
@@ -217,7 +303,7 @@ const Home = () => {
                 </div>
               </div>
             </div>
-          </div>
+          </div> */}
         </div>
         <Socials />
         <Footer />
