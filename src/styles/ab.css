@@ -10,8 +10,9 @@ main.ab {
   justify-content: center;
 }
 .bio {
-  font-size: 14px;
-  font-family: "whyte-light";
+  font-size: 17px;
+  font-family: halyard-display, sans-serif;
+  font-weight: 300;
   line-height: 18px;
   color: #272727;
   margin-inline-start: 20px;
@@ -81,7 +82,7 @@ main.ab {
 h3 {
   padding-top: 20px;
   font-size: 1.6vw;
-  font-family: "whyte";
+  font-family: 'whyte';
   font-weight: 100;
   line-height: 36px;
   color: #272727;
@@ -116,9 +117,9 @@ h3 {
   }
 
   .bio {
-    font-size: 12px;
-    font-family: "whyte-light";
-    line-height: 14px;
+    font-size: 17px;
+    font-family: halyard-display, sans-serif;
+    font-weight: 300;
     color: #272727;
     margin-inline-start: 0px;
   }
@@ -134,31 +135,33 @@ h3 {
   }
 
   .bee {
-    max-width: 200px;
+    width: 60vw;
+    max-width: 800px;
     /* display: block; */
     margin: 40px;
     align-self: center;
+    z-index: -2;
   }
 
   .cloud1 {
-    width: 120px;
+    max-width: 40vw;
     top: 12vh;
     left: -3vw;
   }
 
   .blob {
-    top: 700px;
-    right: -50vw;
+    top: 200px;
+    right: -30vw;
     width: 400px;
-    z-index: -2;
+    z-index: 0;
     stroke-dasharray: 2000;
     stroke-dashoffset: -2000;
     animation: dash1 5s ease-in forwards;
   }
 
   .blob2 {
-    bottom: 450px;
-    left: 30vw;
+    bottom: 100px;
+    left: -10vw;
     width: 400px;
     z-index: 0;
     stroke-dasharray: 2000;

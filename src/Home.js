@@ -8,13 +8,10 @@ import Socials from './components/socials';
 import MiniProject from './components/miniproject';
 import ProjectItem from './components/proj';
 import TextLoop from 'react-text-loop';
-import cofed from './images/work/cofed.png';
-import proact from './images/work/proact.png';
-import hambur from './images/work/hambur.png';
-import atmobile from './images/work/atmobile/sol-home.png';
-import art01 from './images/art-01.jpg';
-import art02 from './images/art-02.jpg';
-import art03 from './images/art-03.jpg';
+import cofed from './images/work/cofed-thumb.png';
+import proact from './images/work/proact/proact-coverimage.png';
+import audacity from './images/work/audacity-thumb.png';
+import atmobile from './images/work/atmobile.png';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 
@@ -68,7 +65,8 @@ const Home = () => {
   // mini projs - move to airtable or something, eventually
   const miniProjs = [
     {
-      title: 'Auckland Transport Mobile Redesign Sprint',
+      tagline: 'AT Mobile Redesign Sprint',
+      title: 'Aiming for frictionless public transport in Auckland.',
       titleClickable: true,
       titleUrl: 'http://isabel.li/at-mobile',
       client: false,
@@ -82,35 +80,8 @@ const Home = () => {
       image: atmobile,
     },
     {
-      title: 'MyceliYum Web Portal',
-      titleClickable: false,
-      titleUrl: null,
-      client: true,
-      clientName: 'CoFED',
-      clientClickable: true,
-      clientUrl: 'http://cofed.coop/',
-      descrip:
-        'Worked with a team of eight to produce a web portal for BIPOC-led food and land co-operatives at every point along the food chain to connect. Strengthened secure co-op networking with profile personalisation, location search, and customised filters.',
-      mainTag: 'Web dev',
-      tags: ['React.js', 'Express.js', 'PostgreSQL'],
-      image: cofed,
-    },
-    {
-      title: 'AUDACITY: Investigation into Youth Voice',
-      titleClickable: false,
-      titleUrl: null,
-      client: true,
-      clientName: 'CoFED',
-      clientClickable: true,
-      clientUrl: 'http://cofed.coop/',
-      descrip:
-        'Worked with a team of eight to produce a web portal for BIPOC-led food and land co-operatives at every point along the food chain to connect. Strengthened secure co-op networking with profile personalisation, location search, and customised filters.',
-      mainTag: 'Web dev',
-      tags: ['React.js', 'Express.js', 'PostgreSQL'],
-      image: cofed,
-    },
-    {
-      title: 'Proact Disaster Response Dashboard',
+      tagline: '#HackForGood Accenture',
+      title: 'How can we design more accurate disaster responses?',
       titleClickable: true,
       titleUrl: 'http://isabel.li/proact',
       client: true,
@@ -124,7 +95,8 @@ const Home = () => {
       image: proact,
     },
     {
-      title: 'How We Fall Apart Character Illustrations',
+      tagline: 'MyceliYum Web Portal for CoFED',
+      title: 'Securely connecting BIPOC-led food and land co-operatives.',
       titleClickable: false,
       titleUrl: null,
       client: true,
@@ -134,36 +106,23 @@ const Home = () => {
       descrip:
         'Worked with a team of eight to produce a web portal for BIPOC-led food and land co-operatives at every point along the food chain to connect. Strengthened secure co-op networking with profile personalisation, location search, and customised filters.',
       mainTag: 'Web dev',
-      tags: ['React.js', 'Express.js', 'PostgreSQL'],
+      tags: ['React.js', 'Express.js', 'PostgreSQL', 'AWS'],
       image: cofed,
     },
     {
-      title: 'Around the World!: Charity Zine',
-      titleClickable: false,
-      titleUrl: null,
-      client: true,
-      clientName: 'CoFED',
-      clientClickable: true,
-      clientUrl: 'http://cofed.coop/',
-      descrip:
-        'Worked with a team of eight to produce a web portal for BIPOC-led food and land co-operatives at every point along the food chain to connect. Strengthened secure co-op networking with profile personalisation, location search, and customised filters.',
-      mainTag: 'Web dev',
-      tags: ['React.js', 'Express.js', 'PostgreSQL'],
-      image: cofed,
-    },
-    {
-      title: 'Hamburbur Stack Visualiser',
+      tagline: 'Personal Visual Investigation',
+      title: 'How do youth feel heard in a digital vacuum?',
       titleClickable: true,
-      titleUrl: 'https://ilyues.github.io/hambur/',
+      titleUrl: 'http://isabel.li/audacity',
       client: false,
+      clientName: null,
       clientClickable: false,
       clientUrl: null,
-      clientName: null,
       descrip:
-        'Fun and novel interactive web browser visualisation of the stack data structure, made with the p5.js JavaScript library.',
-      mainTag: 'Web dev',
-      tags: ['HTML/CSS', 'p5.js'],
-      image: hambur,
+        'Worked with a team of eight to produce a web portal for BIPOC-led food and land co-operatives at every point along the food chain to connect. Strengthened secure co-op networking with profile personalisation, location search, and customised filters.',
+      mainTag: 'Fine art',
+      tags: ['Oil', 'Gouache', 'Clip Studio Paint', 'Woodworking'],
+      image: audacity,
     },
   ];
   return (
@@ -222,15 +181,30 @@ const Home = () => {
         </div>
         <img className='bread-slice2' src={yue} alt='玥' />
         <div className='content-two'>
-          <div className='subheader-cont'>
+          {/*  <div className='subheader-cont'>
             <div className='subheader'>
               Here are some things I've been working on and learning from.
             </div>
-          </div>
+          </div> */}
           <div className='proj-list'>
+            <svg
+              className='tech-blob'
+              viewBox='0 0 500 500'
+              width='100%'
+              id='blobSvg'
+            >
+              <path
+                id='blob'
+                d='M405.5,303.5Q436,357,373.5,356.5Q311,356,280.5,369.5Q250,383,208.5,388.5Q167,394,109.5,379Q52,364,40,307Q28,250,52.5,200Q77,150,134.5,149.5Q192,149,221,112Q250,75,298,79.5Q346,84,375.5,122.5Q405,161,390,205.5Q375,250,405.5,303.5Z'
+                fill='none'
+                stroke-width='7px'
+                stroke='#aeabff'
+              ></path>
+            </svg>
             {miniProjs.map((proj) => (
-              <div data-aos='fade-up'>
-                <ProjectItem
+              <div /* data-aos='fade-up' */>
+                <MiniProject
+                  tagline={proj.tagline}
                   title={proj.title}
                   image={proj.image}
                   tags={proj.tags}
@@ -244,66 +218,12 @@ const Home = () => {
               </div>
             ))}
           </div>
-          {/* 
-          <div className="all-minis">
-            <div className="tech-minis">
-              <svg
-                className="tech-blob"
-                viewBox="0 0 500 500"
-                width="100%"
-                id="blobSvg"
-              >
-                <path
-                  id="blob"
-                  d="M405.5,303.5Q436,357,373.5,356.5Q311,356,280.5,369.5Q250,383,208.5,388.5Q167,394,109.5,379Q52,364,40,307Q28,250,52.5,200Q77,150,134.5,149.5Q192,149,221,112Q250,75,298,79.5Q346,84,375.5,122.5Q405,161,390,205.5Q375,250,405.5,303.5Z"
-                  fill="none"
-                  stroke-width="7px"
-                  stroke="#aeabff"
-                ></path>
-              </svg>
-              {miniProjs.map((proj) => (
-                <MiniProject
-                  title={proj.title}
-                  image={proj.image}
-                  tags={proj.tags}
-                  mainTag={proj.mainTag}
-                  client={proj.client}
-                  clientName={proj.clientName}
-                  titleClickable={proj.titleClickable}
-                  titleUrl={proj.titleUrl}
-                  descrip={proj.descrip}
-                />
-              ))}
-            </div>
-            <div className="art-mini">
-              <div className="art-container">
-                <img className="art-01" src={art01} alt="portrait-1" />
-                <img className="art-02" src={art02} alt="portrait-2" />
-                <img className="art-03" src={art03} alt="portrait-3" />
-              </div>
-              <div className="art-descrip">
-                <span className="mini-proj-header">
-                  <b>Audacity Illustration Series</b>
-                </span>
-                <br />A visual investigation into youth voice and expression of
-                contemporary youth issues, as well as the digital distortion of
-                these voices as we navigate a social landscape now inseparable
-                from the internet. A series of digital and traditional
-                paintings.
-                <div className="mini-proj-tags">
-                  <div
-                    className="mini-main-tag"
-                    style={{ background: "#eea506dc" }}
-                  >
-                    <b>Illustration</b>
-                  </div>
-                  <div className="mini-proj-tag">
-                    <b>Clip Studio Paint</b>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div> */}
+        </div>
+        <div className='subheader-cont'>
+          <div className='subheader'>
+            If we can work together to make the world a brighter place, let me
+            know. ✨
+          </div>
         </div>
         <Socials />
         <Footer />

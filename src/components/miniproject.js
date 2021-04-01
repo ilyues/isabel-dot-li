@@ -1,5 +1,5 @@
-import * as React from "react";
-import "../styles/miniproject.css";
+import * as React from 'react';
+import '../styles/miniproject.css';
 
 // markup
 const MiniProject = (prop) => {
@@ -7,17 +7,17 @@ const MiniProject = (prop) => {
     if (prop.client) {
       if (prop.clientClickable) {
         return (
-          <span className="mini-proj-client">
+          <span className='mini-proj-client'>
             <br />
-            for{" "}
-            <a href={prop.clientUrl} target="_blank">
+            for{' '}
+            <a href={prop.clientUrl} target='_blank'>
               <b>{prop.clientName}</b>
             </a>
           </span>
         );
       } else {
         return (
-          <span className="mini-proj-client">
+          <span className='mini-proj-client'>
             <br />
             for <b>{prop.clientName}</b>
           </span>
@@ -31,12 +31,12 @@ const MiniProject = (prop) => {
   function renderTitle() {
     if (prop.titleClickable) {
       return (
-        <a href={prop.titleUrl} target="_blank" className="mini-proj-link">
-          <b>{prop.title}</b>
+        <a href={prop.titleUrl} target='_blank' className='mini-proj-link'>
+          {prop.title}
         </a>
       );
     } else {
-      return <b>{prop.title}</b>;
+      return <span>{prop.title}</span>;
     }
   }
 
@@ -53,32 +53,33 @@ const MiniProject = (prop) => {
   }
 
   function findTagColour() {
-    if (prop.mainTag == "Web dev") {
-      return "#dd3005dc";
+    if (prop.mainTag == 'Web dev') {
+      return '#dd3005';
+    } else if (prop.mainTag == 'Product design') {
+      return '#024e53';
     } else {
-      return "#024e53dc";
+      return '#df9100';
     }
   }
   return (
-    <main className="mini-proj">
-      <div className="mini-proj-left">{renderImage()}</div>
-      <div className="mini-proj-right">
-        <div className="mini-proj-header">
-          {renderTitle()} {renderClient()}
+    <main className='mini-proj'>
+      <div className='mini-proj-left'>{renderImage()}</div>
+      <div className='mini-proj-right'>
+        <div className='mini-proj-tagline' style={{ color: findTagColour() }}>
+          {prop.tagline}
         </div>
-        {prop.descrip}
-        <br />
-        <div className="mini-proj-tags">
+        <div className='mini-proj-header'>
+          {renderTitle()} {/* {renderClient()} */}
+        </div>
+        <div className='mini-proj-tags'>
           <div
-            className="mini-main-tag"
+            className='mini-main-tag'
             style={{ background: findTagColour() }}
           >
-            <b>{prop.mainTag}</b>
+            {prop.mainTag}
           </div>
           {prop.tags.map((tag) => (
-            <div className="mini-proj-tag">
-              <b>{tag}</b>
-            </div>
+            <div className='mini-proj-tag'>{tag}</div>
           ))}
         </div>
       </div>

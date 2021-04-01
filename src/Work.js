@@ -26,45 +26,6 @@ const Work = () => {
     });
   }, []);
 
-  // changing greeting largely inspired by http://ellen.li
-  var today = new Date();
-  var hourNow = today.getHours();
-  var hello;
-
-  if (hourNow > 18) {
-    hello = 'Evening!';
-  } else if (hourNow > 12) {
-    hello = 'Good afternoon!';
-  } else if (hourNow > 5) {
-    hello = 'Morena!';
-  } else {
-    hello = 'Kia ora!';
-  }
-
-  // items for the things i'm currently doing
-  const items = [
-    <span>
-      <span className='song'>R U Mine?</span>{' '}
-      <span className='artist'>— Arctic Monkeys</span>
-    </span>,
-    <span>
-      <span className='song'>愛人錯過</span>{' '}
-      <span className='artist'>— 告五人</span>
-    </span>,
-    <span>
-      <span className='song'>Snow 눈</span>{' '}
-      <span className='artist'>— SURL</span>
-    </span>,
-    <span>
-      <span className='song'>Opera House</span>{' '}
-      <span className='artist'>— Cigarettes After Sex</span>
-    </span>,
-    <span>
-      <span className='song'>No Blueberries</span>{' '}
-      <span className='artist'>— CL + DPR IAN + DPR LIVE</span>
-    </span>,
-  ];
-
   // mini projs - move to airtable or something, eventually
   const miniProjs = [
     {

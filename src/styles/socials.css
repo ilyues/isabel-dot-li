@@ -51,7 +51,7 @@
   margin: 10px;
   z-index: 3;
   font-size: 14.5px;
-  font-family: "whyte-light";
+  font-family: 'Lekton', sans-serif;
   color: rgb(32, 32, 32);
 }
 
@@ -73,7 +73,7 @@
 }
 
 /* Mobile version */
-@media screen and (max-width: 580px) /* mobile */ {
+@media screen and (max-width: 1024px) /* mobile */ {
   .sticky {
     z-index: 2;
     position: relative;

@@ -17,14 +17,14 @@ const Navbar = () => {
       >
         about
       </NavLink>
-      <NavLink
+      {/* <NavLink
         activeClassName='active-link'
         className='nav-link'
         exact
         to='/work'
       >
         work
-      </NavLink>
+      </NavLink> */}
       <a href='https://ilyues.me/' target='_blank' className='nav-link'>
         art gallery
       </a>

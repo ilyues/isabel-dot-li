@@ -54,9 +54,9 @@ a.desproj-button {
 }
 
 .desproj {
-  font-family: 'Open Sans';
-  font-weight: 400;
-  font-size: 17px;
+  font-family: halyard-display, sans-serif;
+  font-weight: 300;
+  font-size: 18px;
   line-height: 20px;
 }
 
