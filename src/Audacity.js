@@ -6,7 +6,24 @@ import cover from './images/work/audacity/cover.png';
 import prop1 from './images/work/audacity/prop1.png';
 import prop2 from './images/work/audacity/prop2.png';
 import prop3 from './images/work/audacity/prop3.jpg';
-import sol4 from './images/work/proact/sol-4.png';
+
+import art1 from './images/work/audacity/art1.jpg';
+import art2 from './images/work/audacity/art2.jpg';
+import art3 from './images/work/audacity/art3.jpg';
+import art4 from './images/work/audacity/art4.jpg';
+import art5 from './images/work/audacity/art5.jpg';
+import art6 from './images/work/audacity/art6.jpg';
+import art7 from './images/work/audacity/art7.png';
+import art8 from './images/work/audacity/art8.png';
+import art9 from './images/work/audacity/art9.jpg';
+import art99 from './images/work/audacity/art9.png';
+import art55 from './images/work/audacity/art55.jpg';
+import art10 from './images/work/audacity/art10.jpg';
+import art11 from './images/work/audacity/art11.jpg';
+import art12 from './images/work/audacity/art12.png';
+import art13 from './images/work/audacity/art13.jpg';
+
+import installation from './images/work/audacity/installation.png';
 import Footer from './components/footer';
 import Navbar from './components/navbar';
 import Socials from './components/socials';
@@ -92,35 +109,86 @@ const Audacity = () => {
           </p>
         </div>
         <div data-aos='fade-up' className='desproj-content'>
-          <div className='desproj-header'>
-            Overview
-            <br />
-            <span className='desproj-headertag'>
-              The starting line, and the journey that followed.
-            </span>
+          <div class='desproj-galleryrow'>
+            <div class='desproj-gallerycol'>
+              <img src={art1} alt='Piece 1' />
+              <img src={art3} alt='Piece 3' />
+              <img src={art5} alt='Piece 5' />
+            </div>
+            <div class='desproj-gallerycol'>
+              <img src={art2} alt='Piece 2' />
+              <img src={art4} alt='Piece 4' />
+              <img src={art6} alt='Piece 6' />
+            </div>
           </div>
-          <p>
-            I developed a project proposal that would contextualise and drive
-            the project; the focus of this was the digital experience of young
-            people, which I felt was often overlooked as a 'side-effect' of
-            life, while it constituted a lot more.
-          </p>
-          <p>
-            My exploration could be divided into four main sections:
-            <span style={{ fontSize: '22px', lineHeight: '30px' }}>
-              <ul>
-                <li>Suppression.</li>
-                <li>Explosion.</li>
-                <li>Distortion.</li>
-                <li>Censorship.</li>
-              </ul>
-            </span>
-          </p>
+          <div
+            style={{
+              display: 'flex',
+              flexDirection: 'row',
+              justifyContent: 'center',
+            }}
+          >
+            <img src={art55} style={{ width: '96%' }} alt='Piece 5.5!' />
+          </div>
 
-          <p>
-            My final body of work consisted of several paintings moving through
-            these topics.
-          </p>
+          <div class='desproj-galleryrow'>
+            <div class='desproj-gallerycol'>
+              <img src={art7} alt='Piece 1' />
+              <img src={art9} alt='Piece 3' />
+              <img src={art11} alt='Piece 5' />
+            </div>
+            <div class='desproj-gallerycol'>
+              <img src={art8} alt='Piece 2' />
+              <img src={art99} alt='Piece 2' />
+              <img src={art10} alt='Piece 4' />
+              <img src={art12} alt='Piece 6' />
+            </div>
+          </div>
+        </div>
+        <div data-aos='fade-up' className='desproj-content'>
+          <div>
+            <div className='desproj-header'>
+              Overview
+              <br />
+              <span className='desproj-headertag'>
+                The starting line, and the journey that followed.
+              </span>
+            </div>
+            <p>
+              I developed a project proposal that would contextualise and drive
+              the project; the focus of this was the digital experience of young
+              people, which I felt was often overlooked as a 'side-effect' of
+              life, while it constituted a lot more.
+            </p>
+            <p>
+              My exploration could be divided into four main sections:
+              <span style={{ fontSize: '22px', lineHeight: '30px' }}>
+                <ul>
+                  <li>Suppression.</li>
+                  <li>Explosion.</li>
+                  <li>Distortion.</li>
+                  <li>Censorship.</li>
+                </ul>
+              </span>
+            </p>{' '}
+            <p>
+              My final body of work consisted of several paintings moving
+              through these topics.
+            </p>
+          </div>
+          <div className='desproj-2col'>
+            <img
+              style={{ maxHeight: '25vw', width: 'auto' }}
+              src={art13}
+              alt='Piece 13'
+            />
+            <img
+              style={{ maxHeight: '25vw', width: 'auto' }}
+              src={installation}
+              alt='My installation piece'
+            />
+          </div>
+
           <img src={overview} alt='An overview of my completed work' />
         </div>
         <div data-aos='fade-up' className='desproj-content'>

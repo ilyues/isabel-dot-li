@@ -3,31 +3,6 @@ import '../styles/proj.css';
 
 // markup
 const ProjectItem = (prop) => {
-  function renderClient() {
-    if (prop.client) {
-      if (prop.clientClickable) {
-        return (
-          <span className='proj-client'>
-            <br />
-            for{' '}
-            <a href={prop.clientUrl} target='_blank'>
-              <b>{prop.clientName}</b>
-            </a>
-          </span>
-        );
-      } else {
-        return (
-          <span className='proj-client'>
-            <br />
-            for <b>{prop.clientName}</b>
-          </span>
-        );
-      }
-    } else {
-      return null;
-    }
-  }
-
   function renderTitle() {
     if (prop.titleClickable) {
       return (
@@ -53,26 +28,34 @@ const ProjectItem = (prop) => {
   }
 
   function findTagColour() {
-    if (prop.mainTag == 'Web dev') {
-      return '#dd3005dc';
+    if (prop.mainTag === 'Web dev') {
+      return '#dd3005';
+    } else if (
+      prop.mainTag === 'Product design' ||
+      prop.mainTag === 'Packaging design'
+    ) {
+      return '#024e53';
+    } else if (prop.mainTag === 'Fine art' || prop.mainTag === 'Illustration') {
+      return '#df9100';
     } else {
-      return '#024e53dc';
+      return '#645ff0';
     }
   }
   return (
     <main className='proj'>
       <div className='proj-left'>
-        <div className='proj-header'>
-          <span className='proj-title'>{renderTitle()}</span> {renderClient()}
+        <div className='mini-proj-header'>
+          <div className='mini-proj-tagline' style={{ color: findTagColour() }}>
+            {prop.tagline}
+          </div>
+          {renderTitle()}
         </div>
         <div className='proj-tags'>
           <div className='main-tag' style={{ background: findTagColour() }}>
-            <b>{prop.mainTag}</b>
+            {prop.mainTag}
           </div>
           {prop.tags.map((tag) => (
-            <div className='proj-tag'>
-              <b>{tag}</b>
-            </div>
+            <div className='proj-tag'>{tag}</div>
           ))}
         </div>
       </div>

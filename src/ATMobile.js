@@ -84,7 +84,7 @@ const ATMobile = () => {
           <p>
             After analysing the product and <b>market research</b>, as well as
             conducting user research through analysis of{' '}
-            <b>demographic context</b>,<b>app reviews</b>, and{' '}
+            <b>demographic context</b>, <b>app reviews</b>, and{' '}
             <b>user interviews</b>, I created <b>user stories</b> and{' '}
             <b>synthesised</b> my analyses to refine the design problem.
           </p>
@@ -488,7 +488,12 @@ const ATMobile = () => {
               </ul>
             </div>
           </div>
-          <div className='desproj-2col'>
+          <div className='desproj-2col2'>
+            <img
+              style={{ width: '15vw' }}
+              src={solPlan}
+              alt='Solution #2: Giving you control to plan your journey.'
+            />
             <div>
               <div className='desproj-subheader2'>
                 2. Giving you more control to plan your journey.
@@ -537,11 +542,6 @@ const ATMobile = () => {
                 </li>
               </ul>
             </div>
-            <img
-              style={{ width: '15vw' }}
-              src={solPlan}
-              alt='Solution #2: Giving you control to plan your journey.'
-            />
           </div>
           <div className='desproj-2col'>
             <img
@@ -591,7 +591,12 @@ const ATMobile = () => {
               </ul>
             </div>
           </div>
-          <div className='desproj-2col'>
+          <div className='desproj-2col2'>
+            <img
+              style={{ width: '30vw' }}
+              src={solAlert}
+              alt='Solution #4: Keeping you in the loop you choose.'
+            />
             <div>
               <div className='desproj-subheader2'>
                 4. Keeping you in the loop you choose.
@@ -624,11 +629,6 @@ const ATMobile = () => {
                 </li>
               </ul>
             </div>
-            <img
-              style={{ width: '30vw' }}
-              src={solAlert}
-              alt='Solution #4: Keeping you in the loop you choose.'
-            />
           </div>
         </div>
         <div data-aos='fade-up' className='desproj-content'>

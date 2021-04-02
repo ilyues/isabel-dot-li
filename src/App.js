@@ -6,6 +6,7 @@ import ATMobile from './ATMobile';
 import ProAct from './ProAct';
 import Audacity from './Audacity';
 import { Route, Switch, BrowserRouter } from 'react-router-dom';
+import MyceliYum from './MyceliYum';
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
         <Route exact path='/at-mobile' component={ATMobile} />
         <Route exact path='/proact' component={ProAct} />
         <Route exact path='/audacity' component={Audacity} />
+        <Route exact path='/myceliyum' component={MyceliYum} />
       </Switch>
     </BrowserRouter>
   );

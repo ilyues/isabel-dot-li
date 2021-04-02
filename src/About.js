@@ -39,7 +39,7 @@ const About = () => {
                 </li>
                 <li>
                   Great animation, especially when pushed as a medium! Let's
-                  rewatch Spiderverse together.
+                  re-re-rewatch <i>Into the Spiderverse</i> together.
                 </li>
               </p>
               <p>

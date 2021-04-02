@@ -40,7 +40,8 @@
 }
 
 .active-link {
-  font: 14.5px 'WhyteInktrap-Regular', sans-serif, 'Whyte Inktrap';
+  font-family: 'whyte';
+  font-size: 14.5px;
   color: black;
   line-height: 16px;
   text-decoration-line: underline;

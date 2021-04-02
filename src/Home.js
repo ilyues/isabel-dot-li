@@ -96,9 +96,9 @@ const Home = () => {
     },
     {
       tagline: 'MyceliYum Web Portal for CoFED',
-      title: 'Securely connecting BIPOC-led food and land co-operatives.',
-      titleClickable: false,
-      titleUrl: null,
+      title: 'Securely connecting QBPOC-led food and land co-operatives.',
+      titleClickable: true,
+      titleUrl: 'http://isabel.li/myceliyum',
       client: true,
       clientName: 'CoFED',
       clientClickable: true,
@@ -198,7 +198,7 @@ const Home = () => {
                 d='M405.5,303.5Q436,357,373.5,356.5Q311,356,280.5,369.5Q250,383,208.5,388.5Q167,394,109.5,379Q52,364,40,307Q28,250,52.5,200Q77,150,134.5,149.5Q192,149,221,112Q250,75,298,79.5Q346,84,375.5,122.5Q405,161,390,205.5Q375,250,405.5,303.5Z'
                 fill='none'
                 stroke-width='7px'
-                stroke='#aeabff'
+                stroke='#c8d2ff'
               ></path>
             </svg>
             {miniProjs.map((proj) => (
@@ -223,8 +223,23 @@ const Home = () => {
           <div className='subheader'>
             If we can work together to make the world a brighter place, let me
             know. ✨
+            <svg
+              viewBox='0 0 500 500'
+              className='bottom-blob'
+              width='100%'
+              id='blobSvg'
+            >
+              <path
+                id='blob'
+                d='M418,299Q403,348,356.5,365Q310,382,270.5,382Q231,382,193.5,370.5Q156,359,122.5,328Q89,297,72,245Q55,193,78,135.5Q101,78,168.5,114Q236,150,284.5,109.5Q333,69,392.5,94.5Q452,120,442.5,185Q433,250,418,299Z'
+                fill='none'
+                stroke-width='7px'
+                stroke='#457a8f'
+              ></path>
+            </svg>
           </div>
         </div>
+
         <Socials />
         <Footer />
       </main>

@@ -29,7 +29,6 @@
 .mini-proj-right {
   margin: 20px;
   font-size: 14px;
-  font-family: 'Lekton', sans-serif;
   line-height: 16px;
   width: 20vw;
   padding: 20px;
@@ -69,6 +68,7 @@
   font-size: 16px;
   line-height: 20px;
   font-family: 'whyte';
+  font-style: normal;
   padding: 10px;
   color: #df9100;
 }
@@ -87,10 +87,37 @@
   font-size: 28px;
   line-height: 32px;
   padding-bottom: 6px;
+  margin-bottom: 6px;
+  font-family: 'Lekton', sans-serif;
+  font-style: italic;
+  display: inline-block;
+  position: relative;
+  cursor: pointer;
+}
+
+.mini-proj-header a:after {
+  content: '';
+  position: absolute;
+  width: 95%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: rgb(219, 75, 56);
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
+  cursor: pointer;
+}
+
+.mini-proj-header a:hover:after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+  cursor: pointer;
 }
 
 .mini-proj-header a {
   text-decoration: none;
+  cursor: pointer;
 }
 .mini-proj-client {
   font-size: 16px;

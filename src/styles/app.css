@@ -2,6 +2,7 @@
 @import url('https://use.typekit.net/txw5htw.css');
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Lekton:ital@1&display=swap');
+
 html * {
   transition: 0.5s ease;
   transition-property: all;
@@ -84,6 +85,7 @@ b {
 .lettuce {
   font-size: 18px;
   font-family: 'Lekton', sans-serif;
+  font-style: italic;
   /* font-family: 'whyte-light'; */
   font-weight: 100;
   line-height: 25px;
@@ -247,6 +249,7 @@ b {
   max-width: 45vw;
   padding: 80px;
   margin: 40px;
+  position: relative;
 }
 
 .art-02 {
@@ -268,14 +271,31 @@ b {
 
 .tech-blob {
   position: relative;
-  top: 450px;
+  top: 420px;
   left: -520px;
-  width: 650px;
+  width: 850px;
   position: absolute;
   z-index: -10;
   stroke-dasharray: 2000;
   stroke-dashoffset: -2000;
   animation: dash1 5s ease-in forwards;
+  color: #aeabff;
+  color: #41787a;
+}
+
+.bottom-blob {
+  overflow: hidden;
+  position: relative;
+  bottom: -100px;
+  right: -700px;
+  width: 850px;
+  position: absolute;
+  z-index: -10;
+  stroke-dasharray: 2000;
+  stroke-dashoffset: -2000;
+  animation: dash1 7s ease-in forwards;
+  color: #aeabff;
+  color: #457a8f;
 }
 
 .proj-list {
@@ -324,7 +344,13 @@ b {
   .meat {
     display: flex;
     flex-direction: column;
+    padding: 0px;
+    max-width: 90vw;
+    max-height: 80vw;
+    padding-top: 40px;
+    padding-bottom: 40px;
   }
+
   .lettuce {
     font-size: 16px;
     font-weight: 100;
@@ -338,17 +364,9 @@ b {
     font-size: 16px;
     font-family: 'whyte';
     font-weight: 100;
-    line-height: 16px;
+    line-height: 20px;
     color: #272727;
     margin-inline-start: 0px;
-  }
-
-  .meat {
-    max-width: 90vw;
-    max-height: 80vw;
-    padding: 20px;
-    padding-top: 40px;
-    padding-bottom: 40px;
   }
 
   .bread-slice1 {
@@ -454,6 +472,7 @@ b {
   .subheader-cont {
     max-width: 85vw;
     padding: 0;
+    position: relative;
   }
 
   .subheader {
@@ -475,6 +494,14 @@ b {
     font-weight: normal;
     line-height: 40px;
     margin: 10px;
+  }
+  /* .pickles {
+    display: none;
+  } */
+
+  .tech-blob,
+  .bottom-blob {
+    display: none;
   }
 }
 
