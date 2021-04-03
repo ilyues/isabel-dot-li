@@ -1,21 +1,19 @@
 {
   "files": {
-    "main.css": "/static/css/main.3104eb17.chunk.css",
-    "main.js": "/static/js/main.905b9d0d.chunk.js",
-    "main.js.map": "/static/js/main.905b9d0d.chunk.js.map",
+    "main.css": "/static/css/main.2e3294bc.chunk.css",
+    "main.js": "/static/js/main.5609264f.chunk.js",
+    "main.js.map": "/static/js/main.5609264f.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.82478198.js",
     "runtime-main.js.map": "/static/js/runtime-main.82478198.js.map",
     "static/css/2.ec02d681.chunk.css": "/static/css/2.ec02d681.chunk.css",
-    "static/js/2.32d69fd6.chunk.js": "/static/js/2.32d69fd6.chunk.js",
-    "static/js/2.32d69fd6.chunk.js.map": "/static/js/2.32d69fd6.chunk.js.map",
+    "static/js/2.7087530b.chunk.js": "/static/js/2.7087530b.chunk.js",
+    "static/js/2.7087530b.chunk.js.map": "/static/js/2.7087530b.chunk.js.map",
     "index.html": "/index.html",
     "static/css/2.ec02d681.chunk.css.map": "/static/css/2.ec02d681.chunk.css.map",
-    "static/css/main.3104eb17.chunk.css.map": "/static/css/main.3104eb17.chunk.css.map",
-    "static/js/2.32d69fd6.chunk.js.LICENSE.txt": "/static/js/2.32d69fd6.chunk.js.LICENSE.txt",
-    "static/media/LI.5d1d20e6.png": "/static/media/LI.5d1d20e6.png",
+    "static/css/main.2e3294bc.chunk.css.map": "/static/css/main.2e3294bc.chunk.css.map",
+    "static/js/2.7087530b.chunk.js.LICENSE.txt": "/static/js/2.7087530b.chunk.js.LICENSE.txt",
     "static/media/ProAct-logo.e1f2e8df.png": "/static/media/ProAct-logo.e1f2e8df.png",
     "static/media/app.css": "/static/media/WhyteInktrap-Thin.3c28f623.ttf",
-    "static/media/YUE.7ee51489.png": "/static/media/YUE.7ee51489.png",
     "static/media/agedemchart.b8b008b1.png": "/static/media/agedemchart.b8b008b1.png",
     "static/media/appreviews.16836af2.png": "/static/media/appreviews.16836af2.png",
     "static/media/art1.598592e5.jpg": "/static/media/art1.598592e5.jpg",
@@ -53,6 +51,8 @@
     "static/media/index.3179e83b.png": "/static/media/index.3179e83b.png",
     "static/media/installation.859e5e8d.png": "/static/media/installation.859e5e8d.png",
     "static/media/lofis.88678931.png": "/static/media/lofis.88678931.png",
+    "static/media/logo-01.36bdeeb7.png": "/static/media/logo-01.36bdeeb7.png",
+    "static/media/logo-02.644ac129.png": "/static/media/logo-02.644ac129.png",
     "static/media/newinfomap.36ec1d87.png": "/static/media/newinfomap.36ec1d87.png",
     "static/media/proact-coverimage.5a0c87ea.png": "/static/media/proact-coverimage.5a0c87ea.png",
     "static/media/proact-mobile.52fe9271.png": "/static/media/proact-mobile.52fe9271.png",
@@ -75,8 +75,8 @@
   "entrypoints": [
     "static/js/runtime-main.82478198.js",
     "static/css/2.ec02d681.chunk.css",
-    "static/js/2.32d69fd6.chunk.js",
-    "static/css/main.3104eb17.chunk.css",
-    "static/js/main.905b9d0d.chunk.js"
+    "static/js/2.7087530b.chunk.js",
+    "static/css/main.2e3294bc.chunk.css",
+    "static/js/main.5609264f.chunk.js"
   ]
 }
