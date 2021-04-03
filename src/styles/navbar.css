@@ -12,7 +12,8 @@
 }
 
 .nav-link,
-.active-link {
+.active-link,
+.nav-work {
   font-size: 14.5px;
   font-family: 'whyte';
   text-decoration: none;
@@ -35,7 +36,8 @@
   transition: all 0.3s linear;
 }
 
-.nav-link:hover {
+.nav-link:hover,
+.nav-work:hover {
   color: black;
 }
 
@@ -72,5 +74,9 @@
     backdrop-filter: none;
     padding-right: 10px;
     padding-left: 10px;
+  }
+
+  .nav-work {
+    display: none;
   }
 }

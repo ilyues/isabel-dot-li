@@ -384,8 +384,8 @@ h6 {
   }
   .desproj-details {
     flex-direction: column;
-    padding: 20px;
-    margin: 20px;
+    padding: 0px;
+    margin: 5vw;
     width: 80vw;
   }
 

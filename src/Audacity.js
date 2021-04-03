@@ -176,7 +176,7 @@ const Audacity = () => {
               through these topics.
             </p>
           </div>
-          <div className='desproj-2col'>
+          {/* <div className='desproj-2col'>
             <img
               style={{ maxHeight: '25vw', width: 'auto' }}
               src={art13}
@@ -187,7 +187,7 @@ const Audacity = () => {
               src={installation}
               alt='My installation piece'
             />
-          </div>
+          </div> */}
 
           <img src={overview} alt='An overview of my completed work' />
         </div>

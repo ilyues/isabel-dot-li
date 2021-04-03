@@ -1,5 +1,11 @@
 .work-header {
   padding-top: 10vh;
+  width: 80vw;
+  position: relative;
+  display: flex;
+  justify-content: flex-start;
+}
+.work-title {
   max-width: 60vw;
   position: relative;
 }
@@ -12,7 +18,7 @@
   z-index: -10;
   stroke-dasharray: 2000;
   stroke-dashoffset: -2000;
-  animation: dash1 2s ease-in forwards;
-  color: #aeabff;
+  animation: dash1 4s ease-in forwards;
+  color: #ffc250;
   color: #41787a;
 }

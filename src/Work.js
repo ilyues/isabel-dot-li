@@ -19,7 +19,7 @@ import 'aos/dist/aos.css';
 
 // markup
 const Work = () => {
-  const [selectDesign, setSelectDesign] = useState(false);
+  /*  const [selectDesign, setSelectDesign] = useState(false);
   const [selectProduct, setSelectProduct] = useState(false);
   const [selectArt, setSelectArt] = useState(false);
   const [selectWeb, setSelectWeb] = useState(false);
@@ -71,8 +71,8 @@ const Work = () => {
     } else {
       setFilteredProjs(projsList);
     }
-    console.log(filteredProjs);
-  };
+    return filteredProjs;
+  }; */
   useEffect(() => {
     AOS.init({
       duration: 1000,
@@ -229,15 +229,17 @@ const Work = () => {
                 stroke='#ffc250'
               ></path>
             </svg>
-            <h2>
-              Here are some things I've been working on and learning from.
-            </h2>
-            <p>Let's take a look at... </p>
+            <div className='work-title'>
+              <h2>
+                Here are some things I've been working on and learning from.
+              </h2>
+            </div>
+            {/* <p>Let's take a look at... </p>
 
-            <p>I love doing work that empowers... </p>
+            <p>I love doing work that empowers... </p> */}
           </div>
           <div className='proj-list'>
-            {filteredProjs.map((proj) => (
+            {miniProjs.map((proj) => (
               <div data-aos='fade-up'>
                 <ProjectItem
                   tagline={proj.tagline}

@@ -38,7 +38,7 @@ const ProjectItem = (prop) => {
     } else if (prop.mainTag === 'Fine art' || prop.mainTag === 'Illustration') {
       return '#df9100';
     } else {
-      return '#645ff0';
+      return '#736ef3';
     }
   }
   return (
