@@ -51,11 +51,11 @@ const ProAct = () => {
             </p>
           </div>
         </div>
-        <div data-aos='fade-up' className='desproj-content'>
+        <div /* data-aos='fade-up' */ className='desproj-content'>
           <div className='desproj-tagline'>
             Championing quality disaster response design and child welfare.
           </div>
-          <div className='desproj-2col'>
+          <div className='desproj-container'>
             <p>
               Our web dashboard and companion mobile app design were produced
               for the 2021 Accenture #HackForGood hackathon challenge. We had 24
@@ -86,7 +86,7 @@ const ProAct = () => {
             and overall "reactive" (as opposed to proactive) approach.
           </p>
         </div>
-        <div data-aos='fade-up' className='desproj-content'>
+        <div /* data-aos='fade-up' */ className='desproj-content'>
           <div className='desproj-header'>
             Overview
             <br />
@@ -143,7 +143,7 @@ const ProAct = () => {
               </ul>
             </span>
           </p>
-          <div className='desproj-2col'>
+          <div className='desproj-container'>
             <a
               style={{ color: '#001561', border: '#001561 solid 2px' }}
               className='desproj-button'
@@ -165,7 +165,7 @@ const ProAct = () => {
           <img src={desktop} alt='My redesign solutions' />
           <img src={mobile} alt='My redesign solutions for mobile' />
         </div>
-        <div data-aos='fade-up' className='desproj-content'>
+        <div /* data-aos='fade-up' */ className='desproj-content'>
           <div className='desproj-header'>
             Dissecting each stage of the response process
             <br />
@@ -206,7 +206,7 @@ const ProAct = () => {
             </div>
           </p>
         </div>
-        <div data-aos='fade-up' className='desproj-content'>
+        <div /* data-aos='fade-up' */ className='desproj-content'>
           <div className='desproj-header'>
             Meeting user needs throughout the response cycle
             <br />
@@ -214,9 +214,8 @@ const ProAct = () => {
               A closer look at our solution's features.
             </span>
           </div>
-          <div className='desproj-2col2'>
+          <div>
             <img
-              style={{ width: '35vw' }}
               src={sol1}
               alt='Solution #1: Centralised Disaster Management'
             />
@@ -233,9 +232,8 @@ const ProAct = () => {
               </div>
             </div>
           </div>
-          <div className='desproj-2col'>
+          <div>
             <img
-              style={{ width: '30vw' }}
               src={sol2}
               alt="Solution #2: People's Needs and Government Sources"
             />
@@ -282,12 +280,8 @@ const ProAct = () => {
               </div>
             </div>
           </div>
-          <div className='desproj-2col2'>
-            <img
-              style={{ width: '30vw' }}
-              src={sol3}
-              alt='Solution #3: Companion App'
-            />
+          <div>
+            <img src={sol3} alt='Solution #3: Companion App' />
             <div>
               <div className='desproj-subheader2'>
                 3. Standardised Communication for an Adaptive Response
@@ -324,12 +318,8 @@ const ProAct = () => {
               </div>
             </div>
           </div>
-          <div className='desproj-2col'>
-            <img
-              style={{ width: '30vw' }}
-              src={sol4}
-              alt='Solution #4: Customisation and Scalability'
-            />
+          <div>
+            <img src={sol4} alt='Solution #4: Customisation and Scalability' />
             <div>
               <div className='desproj-subheader2'>
                 4. Customisation and Scalability

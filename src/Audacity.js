@@ -73,7 +73,7 @@ const Audacity = () => {
             </p>
           </div>
         </div>
-        <div data-aos='fade-up' className='desproj-content'>
+        <div /* data-aos='fade-up' */ className='desproj-content'>
           <div className='desproj-tagline'>
             This is an investigation into youth voice.
           </div>
@@ -108,7 +108,7 @@ const Audacity = () => {
             be explored in regards to tech, but this was my beginning.
           </p>
         </div>
-        <div data-aos='fade-up' className='desproj-content'>
+        <div /* data-aos='fade-up' */ className='desproj-content'>
           <div class='desproj-galleryrow'>
             <div class='desproj-gallerycol'>
               <img src={art1} alt='Piece 1' />
@@ -145,7 +145,7 @@ const Audacity = () => {
             </div>
           </div>
         </div>
-        <div data-aos='fade-up' className='desproj-content'>
+        <div /* data-aos='fade-up' */ className='desproj-content'>
           <div>
             <div className='desproj-header'>
               Overview
@@ -176,7 +176,7 @@ const Audacity = () => {
               through these topics.
             </p>
           </div>
-          {/* <div className='desproj-2col'>
+          {/* <div >
             <img
               style={{ maxHeight: '25vw', width: 'auto' }}
               src={art13}
@@ -191,7 +191,7 @@ const Audacity = () => {
 
           <img src={overview} alt='An overview of my completed work' />
         </div>
-        <div data-aos='fade-up' className='desproj-content'>
+        <div /* data-aos='fade-up' */ className='desproj-content'>
           <div className='desproj-header'>
             The Proposal
             <br />
@@ -203,7 +203,7 @@ const Audacity = () => {
             these voices as we navigate a social landscape now inseparable from
             the internet.{' '}
           </p>
-          <div className='desproj-2col'>
+          <div>
             <div>
               <p>
                 This point of interest is a culmination of my recent
@@ -220,8 +220,9 @@ const Audacity = () => {
               </p>
             </div>
             <img
+              className='desproj-container'
               style={{
-                width: '12vw',
+                width: '100%',
                 paddingLeft: '20px',
                 paddingRight: '20px',
               }}
@@ -230,7 +231,7 @@ const Audacity = () => {
             />
             <img
               style={{
-                width: '12vw',
+                width: '100%',
                 paddingLeft: '20px',
                 paddingRight: '20px',
               }}
@@ -244,10 +245,10 @@ const Audacity = () => {
             understanding of what public outcry looks like; people united by the
             same dissatisfaction to give that dissatisfaction a voice.
           </p>{' '}
-          <div className='desproj-2col'>
+          <div className='desproj-container'>
             <img
               style={{
-                width: '20vw',
+                width: '100%',
                 paddingRight: '20px',
                 paddingLeft: '20px',
               }}
@@ -300,15 +301,6 @@ const Audacity = () => {
             vandalism, and violence.
           </p>
         </div>
-        {/* <div data-aos='fade-up' className='desproj-content'>
-          <div className='desproj-header'>
-            Solutions
-            <br />
-            <span className='desproj-headertag'>
-              The proposed answers to our questions.
-            </span>
-          </div>
-        </div> */}
       </div>
       <Socials />
       <Footer />

@@ -45,15 +45,15 @@ const ATMobile = () => {
           <div className='desproj-details'>
             <h6>Team:</h6>Individual; user researcher, UI/UX designer, product
             designer.
-            <p>
+            {/* <p>
               <h6>Tools:</h6> Figma
-            </p>
+            </p> */}
             <p>
               <h6>Timeline:</h6> 3 days, 5-8 Mar 2021
             </p>
           </div>
         </div>
-        <div data-aos='fade-up' className='desproj-content'>
+        <div /* data-aos='fade-up' */ className='desproj-content'>
           <div className='desproj-tagline'>
             A stressful commute calls for streamlined redesign.
           </div>
@@ -73,7 +73,7 @@ const ATMobile = () => {
             product for a more frictionless commute.
           </p>
         </div>
-        <div data-aos='fade-up' className='desproj-content'>
+        <div className='desproj-content'>
           <div className='desproj-header'>
             Overview
             <br />
@@ -142,74 +142,74 @@ const ATMobile = () => {
             </ul>
           </p>
         </div>
-        <div data-aos='fade-up' className='desproj-content'>
-          <div className='desproj-header'>
+        <div className='desproj-content'>
+          <div /* data-aos='fade-up' */ className='desproj-header'>
             Investigating the Status Quo.
             <br />
             <span className='desproj-headertag'>
               Product analysis, competitor research.
             </span>
           </div>
-
-          <div className='desproj-subheader'>Exploring AT Mobile</div>
-          <p>
-            Although I use AT Mobile for my transport planning, I decided to
-            redownload the app and understand how a new user may experience the
-            app, as well as explore all of its features in depth.
-          </p>
-          <img
-            src={atscreenshots}
-            alt='Screenshots of the current AT Mobile app'
-          />
-          <p>
-            I noticed that there were a lot of pages and features (some
-            particularly useful) I hadn't ever noticed or used before, due to{' '}
-            <b>unexpectedly deep nesting of information.</b>
-          </p>
-          <p>
-            During my deliberate probing of the app's different pages, I also
-            noticed a pattern of{' '}
-            <b>redundant buttons leading to unclear navigation</b>.
-          </p>
-          <p>
-            Another potential pain point was the large number of linked pages
-            that would open in AT Mobile's own pop-up browser. As a user I felt
-            that if there wasn't a mobile optimised version of the page
-            available, I could've simply searched it up in my own preferred
-            mobile browser.
-          </p>
-          <img src={currinfomap} alt='Current App Navigation' />
-          <div className='desproj-subheader'>Competition and Comparisons</div>
-          <div className='desproj-2col'>
+          <div /* data-aos='fade-up' */>
+            <div className='desproj-subheader'>Exploring AT Mobile</div>
+            <p>
+              Although I use AT Mobile for my transport planning, I decided to
+              redownload the app and understand how a new user may experience
+              the app, as well as explore all of its features in depth.
+            </p>
             <img
-              style={{ width: '30vw' }}
-              src={competitors}
-              alt='Competing apps'
+              src={atscreenshots}
+              alt='Screenshots of the current AT Mobile app'
             />
+            <p>
+              I noticed that there were a lot of pages and features (some
+              particularly useful) I hadn't ever noticed or used before, due to{' '}
+              <b>unexpectedly deep nesting of information.</b>
+            </p>
+            <p>
+              During my deliberate probing of the app's different pages, I also
+              noticed a pattern of{' '}
+              <b>redundant buttons leading to unclear navigation</b>.
+            </p>
+            <p>
+              Another potential pain point was the large number of linked pages
+              that would open in AT Mobile's own pop-up browser. As a user I
+              felt that if there wasn't a mobile optimised version of the page
+              available, I could've simply searched it up in my own preferred
+              mobile browser.
+            </p>
+
+            <img src={currinfomap} alt='Current App Navigation' />
+          </div>
+          <div /* data-aos='fade-up' */>
+            <div className='desproj-subheader'>Competition and Comparisons</div>
             <div>
-              <div className='desproj-tagline'>
-                I <b>identified competitor products</b> and juxtaposed the AT
-                Mobile app with other transport apps to find{' '}
-                <b>market advantages</b> and <b>common pain points</b>.
+              <img src={competitors} alt='Competing apps' />
+              <div>
+                <div className='desproj-tagline'>
+                  I <b>identified competitor products</b> and juxtaposed the AT
+                  Mobile app with other transport apps to find{' '}
+                  <b>market advantages</b> and <b>common pain points</b>.
+                </div>
+                <p>
+                  I was recommended the Waka web app by another public transport
+                  user, which seems to implement a Auckland Transport stop
+                  search with <i>much</i> more simplicity, the only downside
+                  being a lack of mobile app.
+                </p>
+                <p>
+                  I noted that the AT Mobile route search wouldn't always
+                  display all routes available on Google Maps.
+                </p>
+                <p>
+                  Other apps also included copywriting that led to a much more
+                  intuitive experience of similar features.
+                </p>
               </div>
-              <p>
-                I was recommended the Waka web app by another public transport
-                user, which seems to implement a Auckland Transport stop search
-                with <i>much</i> more simplicity, the only downside being a lack
-                of mobile app.
-              </p>
-              <p>
-                I noted that the AT Mobile route search wouldn't always display
-                all routes available on Google Maps.
-              </p>
-              <p>
-                Other apps also included copywriting that led to a much more
-                intuitive experience of similar features.
-              </p>
             </div>
           </div>
         </div>
-        <div data-aos='fade-up' className='desproj-content'>
+        <div /* data-aos='fade-up' */ className='desproj-content'>
           <div className='desproj-header'>
             Understanding Auckland's commuters.
             <br />
@@ -341,14 +341,14 @@ const ATMobile = () => {
 
           {/* TODO: <div className='desproj-subheader2'>Key Insights</div> */}
         </div>
-        {/* <div data-aos='fade-up' className='desproj-content'>
+        {/* <div   className='desproj-content'>
           <div className='desproj-header'>
             User Personas
             <br />
             <span className='desproj-headertag'>Who are we designing for?</span>
           </div>
         </div> */}
-        <div data-aos='fade-up' className='desproj-content'>
+        <div /* data-aos='fade-up' */ className='desproj-content'>
           <div className='desproj-header'>
             Revising the Problem
             <br />
@@ -382,7 +382,7 @@ const ATMobile = () => {
             </ol>
           </span>
         </div>
-        <div data-aos='fade-up' className='desproj-content'>
+        <div /* data-aos='fade-up' */ className='desproj-content'>
           <div className='desproj-header'>
             Ideation
             <br />
@@ -408,12 +408,8 @@ const ATMobile = () => {
           <p></p>
           <div className='desproj-subheader'>Digital Wireframing</div>
 
-          <div className='desproj-2col'>
-            <img
-              style={{ width: '35vw' }}
-              src={lofis}
-              alt='Low fidelity wireframes'
-            />
+          <div>
+            <img src={lofis} alt='Low fidelity wireframes' />
             <div>
               <p>
                 A significant change I immediately made was removing the
@@ -440,7 +436,7 @@ const ATMobile = () => {
             </div>
           </div>
         </div>
-        <div data-aos='fade-up' className='desproj-content'>
+        <div /* data-aos='fade-up' */ className='desproj-content'>
           <div className='desproj-header'>
             Solutions
             <br />
@@ -448,9 +444,9 @@ const ATMobile = () => {
               The proposed answers to our questions.
             </span>
           </div>
-          <div className='desproj-2col'>
+          <div>
             <img
-              style={{ width: '30vw' }}
+              style={{ width: '100%' }}
               src={solHome}
               alt='Solution #1: Your AT Hop card, on the go.'
             />
@@ -488,9 +484,9 @@ const ATMobile = () => {
               </ul>
             </div>
           </div>
-          <div className='desproj-2col2'>
+          <div className='desproj-container'>
             <img
-              style={{ width: '15vw' }}
+              style={{ height: '60vh', width: 'auto' }}
               src={solPlan}
               alt='Solution #2: Giving you control to plan your journey.'
             />
@@ -543,9 +539,9 @@ const ATMobile = () => {
               </ul>
             </div>
           </div>
-          <div className='desproj-2col'>
+          <div className='desproj-container'>
             <img
-              style={{ width: '15vw' }}
+              style={{ height: '60vh', width: 'auto' }}
               src={solLive}
               alt='Solution #3: An organised, reliable live trip experience.'
             />
@@ -591,9 +587,8 @@ const ATMobile = () => {
               </ul>
             </div>
           </div>
-          <div className='desproj-2col2'>
+          <div>
             <img
-              style={{ width: '30vw' }}
               src={solAlert}
               alt='Solution #4: Keeping you in the loop you choose.'
             />
@@ -631,7 +626,7 @@ const ATMobile = () => {
             </div>
           </div>
         </div>
-        <div data-aos='fade-up' className='desproj-content'>
+        <div /* data-aos='fade-up' */ className='desproj-content'>
           <div className='desproj-header'>
             Looking back, looking ahead.
             <br />

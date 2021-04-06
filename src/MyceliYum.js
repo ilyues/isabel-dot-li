@@ -43,12 +43,12 @@ const MyceliYum = () => {
             </p>
           </div>
         </div>
-        <div data-aos='fade-up' className='desproj-content'>
+        <div /* data-aos='fade-up' */ className='desproj-content'>
           <div className='desproj-tagline'>
             Linking food and land co-operatives at every point along the food
             chain.
           </div>
-          <div className='desproj-2col'>
+          <div className='desproj-container'>
             <div>
               <p>
                 As part of our{' '}
@@ -69,7 +69,6 @@ const MyceliYum = () => {
             </div>
             <a href='http://cofed.coop' target='_blank'>
               <img
-                style={{ width: '20vw', marginLeft: '2vw' }}
                 src='https://d3n8a8pro7vhmx.cloudfront.net/themes/5320b56401925b39f3000001/attachments/original/1480552392/logo_blue_new.png?1480552392'
                 alt='CoFED Logo'
               />
