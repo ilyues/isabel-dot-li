@@ -168,7 +168,7 @@ const Work = () => {
       titleClickable: false,
       titleUrl: null,
       descrip:
-        'In 2017, I directed and fulfiled a zine project, bringing 40 artists together internationally to produce and sell a My Hero Academia illustration book with a theme of cultural diversity and global travel. All proceeds went towards relief for Puerto Rico in the aftermath of Hurricane Maria.',
+        'In 2017, I directed and fulfilled a zine project, bringing 40 artists together internationally to produce and sell a My Hero Academia illustration book with a theme of cultural diversity and global travel. All proceeds went towards relief for Puerto Rico in the aftermath of Hurricane Maria.',
       mainTag: 'Project Management',
       tags: [
         'Illustration',
@@ -189,7 +189,7 @@ const Work = () => {
       titleClickable: false,
       titleUrl: null,
       descrip:
-        'I created packaging designs for Sunburst Shack, a food truck serving Hawaiian coffee and shaved ice, with the intention of staying true to Aloha. Deliverables included coffee cup, menu, and food truck decal designs, fulfiled through Innovative Design @ Berkeley. ',
+        'I created packaging designs for Sunburst Shack, a food truck serving Hawaiian coffee and shaved ice, with the intention of staying true to Aloha. Deliverables included coffee cup, menu, and food truck decal designs, fulfilled through Innovative Design @ Berkeley. ',
       mainTag: 'Packaging Design',
       tags: ['Illustration', 'Adobe Photoshop', 'Adobe Illustrator'],
       image: sunburst,

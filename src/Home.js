@@ -1,12 +1,11 @@
 import { React, useEffect } from 'react';
 import './styles/app.css';
-import li from './images/LI.png';
-import yue from './images/YUE.png';
+import li from './images/logo-01.png';
+import yue from './images/logo-02.png';
 import Navbar from './components/navbar';
 import Footer from './components/footer';
 import Socials from './components/socials';
 import MiniProject from './components/miniproject';
-import ProjectItem from './components/proj';
 import TextLoop from 'react-text-loop';
 import cofed from './images/work/cofed-thumb.png';
 import proact from './images/work/proact/proact-coverimage.png';
@@ -132,7 +131,9 @@ const Home = () => {
 
         <Navbar />
 
-        <img className='bread-slice1' src={li} alt='李' />
+        <div className='bread-buffer1'>
+          <img className='bread-slice1' src={li} alt='李' />
+        </div>
 
         <div className='filling'>
           <div className='meat'>
@@ -179,7 +180,10 @@ const Home = () => {
             </div>
           </div>
         </div>
-        <img className='bread-slice2' src={yue} alt='玥' />
+
+        <div className='bread-buffer2'>
+          <img className='bread-slice2' src={yue} alt='玥' />
+        </div>
         <div className='content-two'>
           {/*  <div className='subheader-cont'>
             <div className='subheader'>
@@ -187,7 +191,7 @@ const Home = () => {
             </div>
           </div> */}
           <div className='proj-list'>
-            <svg
+            {/* <svg
               className='tech-blob'
               viewBox='0 0 500 500'
               width='100%'
@@ -200,7 +204,7 @@ const Home = () => {
                 stroke-width='7px'
                 stroke='#c8d2ff'
               ></path>
-            </svg>
+            </svg> */}
             {miniProjs.map((proj) => (
               <div /* data-aos='fade-up' */>
                 <MiniProject
@@ -223,7 +227,7 @@ const Home = () => {
           <div className='subheader'>
             If we can work together to make the world a brighter place, let me
             know. ✨
-            <svg
+            {/* <svg
               viewBox='0 0 500 500'
               className='bottom-blob'
               width='100%'
@@ -236,7 +240,7 @@ const Home = () => {
                 stroke-width='7px'
                 stroke='#457a8f'
               ></path>
-            </svg>
+            </svg> */}
           </div>
         </div>
 

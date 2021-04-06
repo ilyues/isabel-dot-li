@@ -78,9 +78,9 @@ const MiniProject = (prop) => {
           >
             {prop.mainTag}
           </div>
-          {prop.tags.map((tag) => (
+          {/* {prop.tags.map((tag) => (
             <div className='mini-proj-tag'>{tag}</div>
-          ))}
+          ))} */}
         </div>
       </div>
     </main>

@@ -55,8 +55,8 @@ a.desproj-button {
 .desproj {
   font-family: halyard-display, sans-serif;
   font-weight: 300;
-  font-size: 18px;
-  line-height: 21px;
+  font-size: 20px;
+  line-height: 28px;
 }
 
 .desproj-container {
@@ -68,7 +68,7 @@ a.desproj-button {
   align-items: center;
   justify-content: center;
   align-content: center;
-  width: 60vw;
+  width: 40vw;
 }
 
 .desproj-coverimage {
@@ -87,6 +87,7 @@ a.desproj-button {
 }
 .desproj-content {
   margin-bottom: 60px;
+  width: 40vw;
 }
 
 .desproj-2col {
