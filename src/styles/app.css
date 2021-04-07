@@ -3,17 +3,31 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Lekton:ital@1&display=swap');
 
-html * {
+/* .textLoop {
+  transition: none;
+  transition-property: all;
+  transition-duration: 0s;
+  transition-timing-function: ease;
+  transition-delay: 0s;
+  scroll-behavior: inherit;
+  -webkit-animation: fadein 0s;
+  -moz-animation: fadein 0s;
+  -ms-animation: fadein 0s;
+  -o-animation: fadein 0s;
+  animation: fadein 0s;
+}
+ */
+html main:not(.textLoop) {
   transition: 0.5s ease;
   transition-property: all;
   transition-duration: 0.5s;
   transition-timing-function: ease;
   transition-delay: 0s;
   scroll-behavior: inherit;
-  -webkit-animation: fadein 1s; /* Safari, Chrome and Opera > 12.1 */
-  -moz-animation: fadein 1s; /* Firefox < 16 */
-  -ms-animation: fadein 1s; /* Internet Explorer */
-  -o-animation: fadein 1s; /* Opera < 12.1 */
+  -webkit-animation: fadein 1s;
+  -moz-animation: fadein 1s;
+  -ms-animation: fadein 1s;
+  -o-animation: fadein 1s;
   animation: fadein 1s;
 }
 

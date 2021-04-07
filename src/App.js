@@ -4,6 +4,7 @@ import About from './About';
 import Work from './Work';
 import ATMobile from './ATMobile';
 import ProAct from './ProAct';
+import Canva from './Canva';
 import Audacity from './Audacity';
 import { Route, Switch, BrowserRouter } from 'react-router-dom';
 import MyceliYum from './MyceliYum';
@@ -19,6 +20,7 @@ function App() {
         <Route exact path='/proact' component={ProAct} />
         <Route exact path='/audacity' component={Audacity} />
         <Route exact path='/myceliyum' component={MyceliYum} />
+        <Route exact path='/hello-canva!' component={Canva} />
       </Switch>
     </BrowserRouter>
   );
