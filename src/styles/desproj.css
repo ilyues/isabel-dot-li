@@ -162,20 +162,6 @@ a.desproj-button {
   border-bottom: rgb(219, 75, 56) solid 1px;
   margin-bottom: 20px;
 }
-/* 
-.textLoop {
-  transition: none;
-  transition-property: all;
-  transition-duration: none;
-  transition-timing-function: none;
-  transition-delay: none;
-  scroll-behavior: inherit;
-  -webkit-animation: none;
-  -moz-animation: none;
-  -ms-animation: none;
-  -o-animation: none;
-  animation: none;
-} */
 
 h5 {
   /*title*/
@@ -280,7 +266,32 @@ h6 {
   font-weight: 600;
 }
 
+.desproj a,
+.desproj a:visited {
+  color: black;
+}
+
+.canva-blob {
+  z-index: -10;
+
+  display: visible;
+}
+
+.canva-loop {
+  font-size: 36px;
+  line-height: 48px;
+  font-weight: 400;
+}
 @media screen and (max-width: 1000px) /* mobile */ {
+  .canva-loop {
+    font-size: 28px;
+    line-height: 40px;
+    font-weight: 400;
+  }
+  .canva-blob {
+    display: none;
+    color: #fb594a;
+  }
   .desproj-galleryrow {
     display: flex;
     flex-wrap: wrap;
