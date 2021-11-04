@@ -149,8 +149,7 @@ const Work = () => {
       tagline: 'How We Fall Apart Character Card Illustrations',
       title: 'Visualising Asian Americans in dark academia.',
       titleClickable: true,
-      titleUrl:
-        'https://www.goodreads.com/book/show/52778487-how-we-fall-apart',
+      titleUrl: 'http://isabel.li/how-we-fall-apart',
       descrip:
         "I designed character cards for Katie Zhao's upcoming young adult thriller focused on teenage Asian Americans at a mysterious prep school - cards to be distributed for her preorder campaign!",
       mainTag: 'Illustration',
@@ -186,8 +185,8 @@ const Work = () => {
     {
       tagline: 'Sunburst Shack Packaging Design - Contract',
       title: 'Aloha from your coffee cup!',
-      titleClickable: false,
-      titleUrl: null,
+      titleClickable: true,
+      titleUrl: 'http://isabel.li/sunburst-shack',
       descrip:
         'I created packaging designs for Sunburst Shack, a food truck serving Hawaiian coffee and shaved ice, with the intention of staying true to Aloha. Deliverables included coffee cup, menu, and food truck decal designs, fulfilled through Innovative Design @ Berkeley. ',
       mainTag: 'Packaging Design',

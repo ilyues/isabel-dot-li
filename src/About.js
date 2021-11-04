@@ -21,11 +21,13 @@ const About = () => {
             </div>
             <h2>I'm Isabel Li.</h2>
             <div className='bio'>
-              <b>Current Location:</b> <span>by the sea, in Auckland, NZ.</span>
+              <b>Current Location:</b>{' '}
+              <span>Berkeley, in sunny California.</span>
               <p>
                 <b>
-                  I'm a multidisciplinary creative and developer pursuing a
-                  degree in computer science from UC Berkeley.
+                  I'm a multidisciplinary creative and developer pursuing an
+                  education in computer science, design, and entrepreneurship at
+                  UC Berkeley.
                 </b>
               </p>
               <p>
