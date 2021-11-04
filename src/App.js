@@ -8,6 +8,7 @@ import Canva from './Canva';
 import HWFA from './HWFA';
 import SunburstShack from './SunburstShack';
 import Audacity from './Audacity';
+import Horizon from './Horizon';
 import { Route, Switch, BrowserRouter } from 'react-router-dom';
 import MyceliYum from './MyceliYum';
 
@@ -25,6 +26,7 @@ function App() {
         <Route exact path='/hello-canva' component={Canva} />
         <Route exact path='/how-we-fall-apart' component={HWFA} />
         <Route exact path='/sunburst-shack' component={SunburstShack} />
+        <Route exact path='/horizon' component={Horizon} />
       </Switch>
     </BrowserRouter>
   );

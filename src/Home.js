@@ -8,6 +8,7 @@ import Socials from './components/socials';
 import MiniProject from './components/miniproject';
 import TextLoop from 'react-text-loop';
 import cofed from './images/work/cofed-thumb.png';
+import horizon from './images/work/horizon/thumb.png';
 import proact from './images/work/proact/proact-coverimage.png';
 import audacity from './images/work/audacity-thumb.png';
 import atmobile from './images/work/atmobile.png';
@@ -64,6 +65,21 @@ const Home = () => {
   // mini projs - move to airtable or something, eventually
   const miniProjs = [
     {
+      tagline: 'Adobe Creative Jam x Southwest Airlines',
+      title: 'What’s on the horizon for modern in-flight experiences?',
+      titleClickable: true,
+      titleUrl: 'http://isabel.li/horizon',
+      client: false,
+      clientName: null,
+      clientClickable: false,
+      clientUrl: null,
+      descrip:
+        'Mobility is integral to work, education, and community. Knowing this is an issue which affects a significant population of Auckland city, I endeavoured to redesign the UI/UX and overall product for a more frictionless commute.',
+      mainTag: 'Product design',
+      tags: ['User research', 'UI/UX', 'Wireframing', 'Figma'],
+      image: horizon,
+    },
+    {
       tagline: 'AT Mobile Redesign Sprint',
       title: 'Aiming for frictionless public transport in Auckland.',
       titleClickable: true,
@@ -78,21 +94,21 @@ const Home = () => {
       tags: ['User research', 'UI/UX', 'Wireframing', 'Figma'],
       image: atmobile,
     },
-    {
-      tagline: '#HackForGood Accenture',
-      title: 'How can we design more accurate disaster responses?',
-      titleClickable: true,
-      titleUrl: 'http://isabel.li/proact',
-      client: true,
-      clientClickable: false,
-      clientUrl: null,
-      clientName: 'Save the Children (#HackForGood Accenture)',
-      descrip:
-        'In a team of four, designed dashboard and companion app to streamline natural disaster crisis response and identify victim needs. Uses real-time information through community (sentiment analysis) and government sources, tailored crisis map, and standardised responder communication system.',
-      mainTag: 'Product design',
-      tags: ['Figma', 'Wireframing', 'Prototyping'],
-      image: proact,
-    },
+    // {
+    //   tagline: '#HackForGood Accenture',
+    //   title: 'How can we design more accurate disaster responses?',
+    //   titleClickable: true,
+    //   titleUrl: 'http://isabel.li/proact',
+    //   client: true,
+    //   clientClickable: false,
+    //   clientUrl: null,
+    //   clientName: 'Save the Children (#HackForGood Accenture)',
+    //   descrip:
+    //     'In a team of four, designed dashboard and companion app to streamline natural disaster crisis response and identify victim needs. Uses real-time information through community (sentiment analysis) and government sources, tailored crisis map, and standardised responder communication system.',
+    //   mainTag: 'Product design',
+    //   tags: ['Figma', 'Wireframing', 'Prototyping'],
+    //   image: proact,
+    // },
     {
       tagline: 'MyceliYum Web Portal for CoFED',
       title: 'Securely connecting QBPOC-led food and land co-operatives.',

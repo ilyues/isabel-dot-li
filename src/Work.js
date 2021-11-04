@@ -9,6 +9,7 @@ import cofed from './images/work/cofed-thumb.png';
 import proact from './images/work/proact/proact-coverimage.png';
 import audacity from './images/work/audacity-thumb.png';
 import atmobile from './images/work/atmobile.png';
+import horizon from './images/work/horizon/thumb.png';
 import hambur from './images/work/hambur.png';
 import hwfa from './images/work/hwfa/hwfa-cover.png';
 import zine from './images/work/zine/cover.png';
@@ -81,6 +82,21 @@ const Work = () => {
 
   // mini projs - move to airtable or something, eventually
   const miniProjs = [
+    {
+      tagline: 'Adobe Creative Jam x Southwest Airlines',
+      title: 'What’s on the horizon for modern in-flight experiences?',
+      titleClickable: true,
+      titleUrl: 'http://isabel.li/horizon',
+      client: false,
+      clientName: null,
+      clientClickable: false,
+      clientUrl: null,
+      descrip:
+        'With what seems like the end of quarantine in sight, people are yearning to move around and travel. Whether it’s to meet friends and family or to expand horizons, we sought to provide a fun and relaxing way for passengers to find a deeper connection and understanding of their destination.',
+      mainTag: 'Product design',
+      tags: ['User research', 'UI/UX', 'Prototyping', 'Adobe XD'],
+      image: horizon,
+    },
     {
       tagline: 'AT Mobile Redesign Sprint',
       title: 'Aiming for frictionless public transport in Auckland.',
