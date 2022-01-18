@@ -194,11 +194,11 @@ const Home = () => {
                 </span>
               </TextLoop>
               <p />
-              <div className='portfolio-link'>
-                <a href='https://www.dropbox.com/s/of87oqzngv2t0dw/IsabelLi_Portfolio.pdf?dl=0'>
-                  <b>Check out my design portfolio (as a PDF!) here.</b>
-                </a>
-              </div>
+            </div>
+            <div className='portfolio-link'>
+              <a href='https://www.dropbox.com/s/of87oqzngv2t0dw/IsabelLi_Portfolio.pdf?dl=0'>
+                <b>Check out my design portfolio (as a PDF!) here.</b>
+              </a>
             </div>
           </div>
         </div>

@@ -17,17 +17,27 @@ const Navbar = () => {
       >
         about
       </NavLink>
+
       <NavLink
         activeClassName='active-link'
-        className='nav-work'
+        className='nav-design'
         exact
-        to='/work'
+        to='/design'
       >
-        work
+        design
       </NavLink>
       <a href='https://ilyues.me/' target='_blank' className='nav-link'>
-        art gallery
+        illustrate
       </a>
+      <NavLink
+        activeClassName='active-link'
+        className='nav-code'
+        exact
+        to='/code'
+      >
+        code
+      </NavLink>
+
       {/* <a
         href='https://www.inprnt.com/gallery/ilyues/'
         target='_blank'
