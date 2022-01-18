@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/static/css/main.636aadec.chunk.css",
-    "main.js": "/static/js/main.f041bf04.chunk.js",
-    "main.js.map": "/static/js/main.f041bf04.chunk.js.map",
+    "main.css": "/static/css/main.46ff5a56.chunk.css",
+    "main.js": "/static/js/main.3955e18d.chunk.js",
+    "main.js.map": "/static/js/main.3955e18d.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.82478198.js",
     "runtime-main.js.map": "/static/js/runtime-main.82478198.js.map",
     "static/css/2.ec02d681.chunk.css": "/static/css/2.ec02d681.chunk.css",
-    "static/js/2.63c6aa09.chunk.js": "/static/js/2.63c6aa09.chunk.js",
-    "static/js/2.63c6aa09.chunk.js.map": "/static/js/2.63c6aa09.chunk.js.map",
+    "static/js/2.25055880.chunk.js": "/static/js/2.25055880.chunk.js",
+    "static/js/2.25055880.chunk.js.map": "/static/js/2.25055880.chunk.js.map",
     "index.html": "/index.html",
     "static/css/2.ec02d681.chunk.css.map": "/static/css/2.ec02d681.chunk.css.map",
-    "static/css/main.636aadec.chunk.css.map": "/static/css/main.636aadec.chunk.css.map",
-    "static/js/2.63c6aa09.chunk.js.LICENSE.txt": "/static/js/2.63c6aa09.chunk.js.LICENSE.txt",
+    "static/css/main.46ff5a56.chunk.css.map": "/static/css/main.46ff5a56.chunk.css.map",
+    "static/js/2.25055880.chunk.js.LICENSE.txt": "/static/js/2.25055880.chunk.js.LICENSE.txt",
     "static/media/Hello1.5a43653c.gif": "/static/media/Hello1.5a43653c.gif",
     "static/media/ProAct-logo.e1f2e8df.png": "/static/media/ProAct-logo.e1f2e8df.png",
     "static/media/app.css": "/static/media/WhyteInktrap-Thin.3c28f623.ttf",
@@ -53,6 +53,7 @@
     "static/media/design1.e7645859.jpg": "/static/media/design1.e7645859.jpg",
     "static/media/design2.c5205811.jpg": "/static/media/design2.c5205811.jpg",
     "static/media/doodle1.0353544f.png": "/static/media/doodle1.0353544f.png",
+    "static/media/figma.068850a6.png": "/static/media/figma.068850a6.png",
     "static/media/final1.c4b8a2bb.png": "/static/media/final1.c4b8a2bb.png",
     "static/media/hambur.49a899ce.png": "/static/media/hambur.49a899ce.png",
     "static/media/hwfa-cover.83900301.png": "/static/media/hwfa-cover.83900301.png",
@@ -93,8 +94,8 @@
   "entrypoints": [
     "static/js/runtime-main.82478198.js",
     "static/css/2.ec02d681.chunk.css",
-    "static/js/2.63c6aa09.chunk.js",
-    "static/css/main.636aadec.chunk.css",
-    "static/js/main.f041bf04.chunk.js"
+    "static/js/2.25055880.chunk.js",
+    "static/css/main.46ff5a56.chunk.css",
+    "static/js/main.3955e18d.chunk.js"
   ]
 }
