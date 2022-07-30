@@ -29,6 +29,14 @@ function App() {
         <Route exact path='/how-we-fall-apart' component={HWFA} />
         <Route exact path='/sunburst-shack' component={SunburstShack} />
         <Route exact path='/horizon' component={Horizon} />
+        <Route
+          path='/figma-edu'
+          component={() => {
+            window.location.href =
+              'https://ilyues.notion.site/ilyues/Figma-Feature-Design-for-Education-a2c139ad85af41d086fbc7b7ea6589a1';
+            return null;
+          }}
+        />
       </Switch>
     </BrowserRouter>
   );
