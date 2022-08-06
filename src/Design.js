@@ -3,7 +3,7 @@ import './styles/app.css';
 import './styles/work.css';
 import Navbar from './components/navbar';
 import Footer from './components/footer';
-import Socials from './components/socials';
+
 import ProjectItem from './components/proj';
 import figma from './images/work/figma.png';
 import audacity from './images/work/audacity-thumb.png';
@@ -186,7 +186,7 @@ const Design = () => {
             ))}
           </div>
         </div>
-        <Socials />
+
         <Footer />
       </main>
     </div>

@@ -3,7 +3,7 @@ import './styles/desproj.css';
 import cover from './images/work/horizon/thumb.png';
 import Footer from './components/footer';
 import Navbar from './components/navbar';
-import Socials from './components/socials';
+
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 
@@ -99,7 +99,7 @@ const Horizon = () => {
           </div>
         </div>
       </div>
-      <Socials />
+
       <Footer />
     </main>
   );

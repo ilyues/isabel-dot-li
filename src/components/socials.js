@@ -44,7 +44,6 @@ const Socials = () => {
           <span className='mail'>📬</span>
         </a>
       </div>
-      <span className='talk-to-me'>Don't be a stranger. Let's chat! :)</span>
     </main>
   );
 };

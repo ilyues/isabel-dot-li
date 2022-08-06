@@ -1,8 +1,8 @@
-ul {
+.desproj ul {
   list-style: none;
 }
 
-ul li,
+.desproj ul li,
 ol li {
   padding: 5px 0px;
 }
@@ -12,14 +12,14 @@ ol li {
   font-weight: 700;
   font-size: 18px;
 }
-ul li::before {
+.desproj ul li::before {
   content: '•';
   display: inline-block;
   width: 1em;
   margin-left: -1em;
 }
 
-ul li ul li::before {
+.desproj ul li ul li::before {
   content: '◦';
   display: inline-block;
   width: 1em;

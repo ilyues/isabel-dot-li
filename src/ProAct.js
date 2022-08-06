@@ -12,7 +12,7 @@ import logo from './images/work/proact/ProAct-logo.png';
 import mobilemockup from './images/work/proact/proact-mobile.png';
 import Footer from './components/footer';
 import Navbar from './components/navbar';
-import Socials from './components/socials';
+
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 
@@ -344,7 +344,7 @@ const ProAct = () => {
           </div>
         </div>
       </div>
-      <Socials />
+
       <Footer />
     </main>
   );

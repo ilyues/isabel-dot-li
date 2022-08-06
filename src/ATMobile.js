@@ -19,7 +19,6 @@ import solLive from './images/work/atmobile/sol-live.png';
 import solAlert from './images/work/atmobile/sol-alert.png';
 import Footer from './components/footer';
 import Navbar from './components/navbar';
-import Socials from './components/socials';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 
@@ -685,7 +684,6 @@ const ATMobile = () => {
         </div>
       </div>
 
-      <Socials />
       <Footer />
     </main>
   );

@@ -26,7 +26,7 @@ import art13 from './images/work/audacity/art13.jpg';
 import installation from './images/work/audacity/installation.png';
 import Footer from './components/footer';
 import Navbar from './components/navbar';
-import Socials from './components/socials';
+
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 
@@ -302,7 +302,7 @@ const Audacity = () => {
           </p>
         </div>
       </div>
-      <Socials />
+
       <Footer />
     </main>
   );

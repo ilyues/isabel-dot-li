@@ -11,7 +11,6 @@ import isabel3 from './images/work/canva/isabel3.gif';
 import isabel4 from './images/work/canva/isabel4.gif';
 import Footer from './components/footer';
 import Navbar from './components/navbar';
-import Socials from './components/socials';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import TextLoop from 'react-text-loop';
@@ -555,7 +554,7 @@ const Canva = () => {
           </div>
         </div>
       </div>
-      <Socials />
+
       <Footer />
     </main>
   );

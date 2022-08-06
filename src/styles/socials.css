@@ -1,8 +1,5 @@
 .sticky {
-  bottom: 4vh;
-  left: 2vw;
   z-index: 2;
-  position: fixed;
   text-align: left;
   display: flex;
   flex-direction: column;
@@ -34,8 +31,8 @@
 }
 
 .socials svg {
-  height: 20px;
-  margin: 10px;
+  height: 30px;
+  margin: 15px;
   fill: #444444;
   -moz-transition: fill 0.1s ease-in;
   -o-transition: fill 0.1s ease-in;
@@ -58,9 +55,9 @@
 
 .mail {
   text-decoration: none;
-  line-height: 20px;
-  font-size: 20px;
-  margin: 10px;
+  line-height: 30px;
+  font-size: 30px;
+  margin: 15px;
   height: 20px;
   text-align: center;
   animation-name: jump-animation; /* Refers to the name of your @keyframes element below */

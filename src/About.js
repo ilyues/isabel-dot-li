@@ -4,7 +4,6 @@ import cloud2 from './images/cloud-02.png';
 import Footer from './components/footer';
 import bee from './images/bee.jpg';
 import Navbar from './components/navbar';
-import Socials from './components/socials';
 
 // markup
 const About = () => {
@@ -26,8 +25,8 @@ const About = () => {
               <p>
                 <b>
                   I'm a multidisciplinary creative and developer pursuing an
-                  education in computer science, design, and entrepreneurship at
-                  UC Berkeley.
+                  education in computer science, art practice, design, and
+                  entrepreneurship at UC Berkeley.
                 </b>
               </p>
               <p>
@@ -79,8 +78,7 @@ const About = () => {
           stroke='rgb(5, 101, 137)'
         ></path>
       </svg>
-      <Socials />
-      <Footer />
+      {/* <Footer /> */}
     </main>
   );
 };

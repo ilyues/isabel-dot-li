@@ -62,9 +62,9 @@ main {
 
 h1 {
   font-family: 'whyte';
-  font-size: 60px;
+  font-size: 6.5vh;
   font-weight: normal;
-  line-height: 80px;
+  line-height: 7.5vh;
   color: #111111;
   margin: 10px;
 }
@@ -72,8 +72,8 @@ h1 {
 h2 {
   font-family: 'whyte';
   font-weight: normal;
-  font-size: 48px;
-  line-height: 66px;
+  font-size: 5.5vh;
+  line-height: 6.5vh;
   color: #272727;
   margin-block-start: 0;
   margin-block-end: 0;
@@ -84,6 +84,10 @@ b {
   text-decoration: none;
   font-family: 'whyte';
   font-weight: normal;
+}
+
+a:-webkit-any-link {
+  color: #111111;
 }
 
 .filling {
@@ -108,11 +112,16 @@ b {
 }
 
 .pickles {
-  overflow: hidden;
-
-  line-height: 22px;
+  font-family: 'Lekton', sans-serif;
+  font-size: 1em;
+  overflow: scroll;
+  line-height: 1.5em;
   color: #272727;
-  margin-inline-start: 20px;
+  margin-inline-start: 0px;
+}
+
+.pickles li {
+  list-style-type: none;
 }
 
 .meat {
@@ -369,7 +378,7 @@ b {
     justify-content: center;
     display: flex;
     flex-direction: column;
-    height: 30vh;
+    height: fit-content;
     border-radius: 20px;
     max-width: 95vw;
     margin-bottom: 10vh;
@@ -380,9 +389,8 @@ b {
     flex-direction: column;
     padding: 0px;
     max-width: 90vw;
-    max-height: 80vw;
-    padding-top: 40px;
-    padding-bottom: 40px;
+    padding-top: 0px;
+    padding-bottom: 0px;
   }
 
   .lettuce {
@@ -394,12 +402,9 @@ b {
 
   .pickles {
     display: inline-block;
-    overflow: hidden;
-    font-size: 16px;
-    font-family: 'whyte';
-    font-weight: 100;
-    line-height: 20px;
+    height: fit-content;
     color: #272727;
+    overflow: auto;
     margin-inline-start: 0px;
   }
 

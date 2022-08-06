@@ -11,7 +11,7 @@ import stylescape2 from './images/work/sunburst/stylescape2.jpg';
 import stylescape3 from './images/work/sunburst/stylescape3.jpg';
 import Footer from './components/footer';
 import Navbar from './components/navbar';
-import Socials from './components/socials';
+
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 
@@ -92,7 +92,7 @@ const SunburstShack = () => {
           </div>
         </div>
       </div>
-      <Socials />
+
       <Footer />
     </main>
   );
