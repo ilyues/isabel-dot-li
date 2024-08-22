@@ -10,12 +10,12 @@ import HWFA from './HWFA';
 import SunburstShack from './SunburstShack';
 import Audacity from './Audacity';
 import Horizon from './Horizon';
-import { Route, Switch, BrowserRouter, Redirect } from 'react-router-dom';
+import { Route, Switch, HashRouter, Redirect } from 'react-router-dom';
 import MyceliYum from './MyceliYum';
 
 function App() {
   return (
-    <BrowserRouter>
+    <HashRouter>
       <Switch>
         <Route exact path='/isabel-dot-li'>
           {' '}
@@ -42,7 +42,7 @@ function App() {
           }}
         />
       </Switch>
-    </BrowserRouter>
+    </HashRouter>
   );
 }
 
